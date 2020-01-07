@@ -24,17 +24,17 @@ n: _DU_ ÄR ÅNGESTEN
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?§
+h: Nämen! Vi är här igen?§
 
 `hong({eyes:"0_neutral"})`
 
-n: DITT §JOB§ ÄR ATT SKYDDA DIN MÄNNISKA FRÅN *FARA*
+n: DITT JOBB ÄR ATT SKYDDA DIN MÄNNISKA FRÅN *FARA*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW§
+n: FAKUM ÄR, ATT SPELA OM DET HÄR SPELET SÄTTER DEM I *FARA* JUST NU!
 
-n: FORT, VARNA DEM!§
+n: FORT, VARNA DEM!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Människa! Lyssna, vi är i fara! §Spelaren§...
+b: Människa! Lyssna, vi är i fara! spelaren...
 
-[...§tänker§ tortera oss igen!](#act1_replay_torture)
+[...tänker tortera oss igen!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...kommer inte hitta ett §alternate ending§!](#act1_replay_alternate)
 
-[...kommer §att§ få ludonarrativ dissonans!](#act1_replay_dissonance)
+[...kommer drabbas av ludonarrativ dissonans!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,23 +59,23 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!§
+b: De kommer få oss att krypa ihop i en boll och gråta!§
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!§
+b: De kommer få oss att döda din mobil för att den gav dig en panikattack!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!§
+b: De kommer få oss att *inte* slå §husvärden/festvärden§!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!§
+b: De kommer få oss att slå den Sympatiska §Antiantagonisthusvärden§!swedish pls
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--§
+h: Vi kommer åtmistånde kanske inte hoppa från taket den här gå--§
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
@@ -84,7 +84,7 @@ b: DE KOMMER FÅ OSS ATT HOPPA FRÅN TAKET.
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--§
+b: ALLA DESSA HEMSKA SAKER KOMMER ATT HÄNDA OSS OCH VI KOMMER DÅ ATT--§
 
 (#act1_replay_end)
 
@@ -100,7 +100,7 @@ h: Sure, the story as a *whole* is the same, but each chapter has two possible e
 
 `bb({body:"fear"});`
 
-b: Selaren kommer §att§ bli besviken, stänga §den här§ fliken, radera §our software§, och då kommer vi att--
+b: Spelaren kommer att bli besviken, stänga fliken, radera mjukvaran, och då kommer vi att--
 
 (#act1_replay_end)
 
@@ -112,23 +112,23 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?§
+h: En luddig vadå?§
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,§
+b: Historien handlade om hur du kan *VÄLJA* att bygga ett sundt samarbete med din rädsla,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,§
+b: Men att spela om spelet ger dig samma historia, vilket implicerar att dina *VAL* inte spelar någon roll,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,§
+b: Vilket påvisar en motsägelse mellan spelets budskap och mekaniker,§
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,§
+b: Och således upplöser detta narrativa universums självaste väv,§
 
 `bb({body:"fear"});`
 
@@ -141,7 +141,7 @@ b: Och då kommer vi att--
 
 `bb({body:"panic"})`
 
-b: DÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ §How many Ö's is the right amount?§
+b: DÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
