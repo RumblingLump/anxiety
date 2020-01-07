@@ -59,7 +59,7 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: De kommer få oss att krypa ihop i en boll och gråta!§
+b: De kommer få oss att krypa ihop i en boll och gråta!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
@@ -112,7 +112,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: En luddig vadå?§
+h: En luddig vadå?
 
 `bb({eyes:"normal"});`
 
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.§
+h: Okej, tillbaka i karaktär.§
 
 ```
 Game.clearText();
 ```
 
-n4: (LÅT _DIN_ ÅNGEST BLA BLA BLA MEST LIKT VAD _DIN_ RÄDSLA BLA BLA §YOU KNOW THE DRILL§)
+n4: (LÅT _DIN_ ÅNGEST BLA BLA BLA MEST LIKT VAD _DIN_ RÄDSLA BLA BLA DU VET HUR DET FUNGERAR)
 
 ```
 sfx("squeak");
@@ -190,11 +190,11 @@ h: Så bra, min varg är tillbaka. Faaaaantastiskt.
 
 `hong({eyes:"0_neutral"})`
 
-n: DITT §JOB§ ÄR ATT SKYDDA DIN MÄNNISKA FRÅN *FARA*
+n: DITT JOBB ÄR ATT SKYDDA DIN MÄNNISKA FRÅN *FARA*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW§
+n: FAKTUM ÄR, ATT DEN DÄR SMÖRGÅSEN SÄTTER DEM I *FARA* JUST NU
 
 n: FORT, VARNA DEM!
 
@@ -214,11 +214,11 @@ n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!§](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Vi äter luch ensamma! Igen!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[Vi är inte produktiva §när§ vi äter!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Vi är inte produktiva när vi äter!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us§!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Det där vita brödet är dåligt för oss!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?§-
+b: Vet du inte att ensamhet är associerat med att dö i förtid lika mycket som rökning av 15 cigaretter per dag?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,18 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but§--
+h: §um§, tack för att du citerar dina källor men--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna§-
+b: Vilket innebär att om vi inte hänger med någon *omedelbart* kommer vi att-
 
 `bb({body:"panic"})`
 
-b: DÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ §How many Ö's is the right amount?§
-
+b: DÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"0_shock", eyes:"0_shock"});
@@ -260,7 +259,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: DU ANVÄNDE *RÄDSLA§N§ §FÖR§ ATT VARA OÄLSKAD*
+n: DU ANVÄNDE *RÄDSLA §FÖR§ ATT VARA OÄLSKAD*
 
 (#act1b)
 
@@ -271,27 +270,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!§
+b: §dra§ fram din laptop och börja med något produktivt nu!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--§
+h: §Um§, jag skulle helst inte få brödsmulor mellan ta--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!§
+b: Om vi inte bidrar till samhällets kropp så är vi en samhällsparasit!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--§
+b: Samhällskroppen kommer att gå till samhällsdoktorn för läkemedel till at ta kål på deras samhällsparasiter §och§ då kommer vi--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ §How many Ö's is the right amount?§
+b: DÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +303,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: DU ANVÄNDE *§FEAR OF BEING A BAD PERSON§*
+n: DU ANVÄNDE *RÄDSLA §FÖR§ ATT VARA EN DÅLIG PERSON*
 
 (#act1b)
 
@@ -315,18 +314,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Har §dessa§ studierna blivit replikerade--§how much fancy/aristocratic language does Hong use?§
+h: Har de sudierna blivit replikerade--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processat vete will spike our blood sugar so they'll have to amputate all our limbs and then we'll-§
+b: Processat vete kommer spika vårat blodsocker så de måste amputera alla våra lemmar och då kommer vi att--
 
 `bb({body:"panic"})`
 
-b: DÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ §How many Ö's is the right amount?§
+b: DÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,7 +338,7 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: DU ANVÄNDE *§FEAR OF BEING HARMED§*
+n: DU ANVÄNDE *RÄDSLA FÖR ATT SKADAS*
 
 (#act1b)
 
@@ -349,27 +348,27 @@ n: IT'S SUPER EFFECTIVE§
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!§
+b: Du ser, mäinniska. Jag är din lojala vakt-varg!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!§
+b: Lita på din mage! Dina känslor är alltid giltiga!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO§
+n: FÅ NED DIN MÄNNISKAS ENERGI TILL NOLL
 
 n: FÖR ATT SKYDDA DERAS + SOCIALA + MORALISKA BEHOV, §SÅ§ KAN DU ANVÄNDA:
 
-n: FEAR OF *BEING HARMED* #harm#§
+n: RÄDSLA FÖR ATT *SKADAS* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#§
+n: RÄDSLA FÖR ATT VARA OÄLSKAD #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#§
+n: OCH RÄDSLA FÖR ATT VARA EN DÅLIG PERSON #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (§PRO-TIP§: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)§
+n4: (TIPS: §VÄLJ§ VALEN SOM PERSONLIGEN TRÄFFAR DINA DJUPASTE, MÖRKASTE FASOR!~)
 
 h: ...
 
@@ -383,16 +382,16 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.§
+h: vet du vad, det kanske är dags att kolla mobilen.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: SKYDDA DIN MÄNNISKA§
+n: SKYDDA DIN MÄNNISKA
 
-n: FRÅN VÄRLDEN. §FROM OTHER PEOPLE§. §FROM THEMSELF§.
+n: FRÅN VÄRLDEN. FRÅN ANDRA MÄNNISKOR. FRÅN DEM SJÄLVA.
 
 n: LYCKA TILL
 
@@ -408,7 +407,7 @@ n: LYCKA TILL
 
 `music('battle', {volume:0.5})`
 
-n: ROUND ONE: *FIGHT!*
+n: ROND ETT: *FIGHT!*§
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
