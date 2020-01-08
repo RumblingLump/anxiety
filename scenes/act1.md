@@ -214,7 +214,7 @@ n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR
 
 # act1_normal_choice
 
-[Vi äter luch ensamma! Igen!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Vi äter lunch ensamma! Igen!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
 [Vi är inte produktiva när vi äter!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Vet du inte att ensamhet är associerat med att dö i förtid lika mycket som rökning av 15 cigaretter per dag?-
+b: Vet du inte att ensamhet är associerat med att dö i förtid lika mycket som att röka 15 cigaretter per dag?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -259,7 +259,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: DU ANVÄNDE *RÄDSLA §FÖR§ ATT VARA OÄLSKAD*
+n: DU ANVÄNDE *RÄDSLA FÖR ATT VARA OÄLSKAD*
 
 (#act1b)
 
@@ -303,7 +303,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: DU ANVÄNDE *RÄDSLA §FÖR§ ATT VARA EN DÅLIG PERSON*
+n: DU ANVÄNDE *RÄDSLA FÖR ATT VARA EN DÅLIG PERSON*
 
 (#act1b)
 
@@ -433,12 +433,12 @@ b: Då så!
 
 [Säg nej, det är fullt av giftiga droger!](#act1c_drugs)
 
-[Ignore it, we just make parties sad.§](#act1c_sad)
+[Ignora den, vi gör bara fester §sad.§](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Femton cigaretter om §dan/dagen§, §människa/männska§! Femton!
+b: Femton cigaretter om §dan/dagen§, människa! Femton!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -467,20 +467,20 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: So yeah we should go to that party!§
+b: Så ja vi gå till den där festen!§
 {{/if}}
 
 {{if _.parasite}}
-b: Just bring the laptop so we can do work, and not be a society-parasite.§
+b: Ta med laptopen bara så att vi kan arbeta, och inte vara samhällsparasiter.
 {{/if}}
 
 {{if _.whitebread}}
-b: Just as long as they don't serve WHITE BREAD§
+b: Bara så länge de inte §serve§ VITT BRÖD
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.§
+h: GUD. Om det får dig att §hålla käft/hålla klaff/hålla tyst§, visst.
 
 h: Jag säger ja.
 
@@ -505,11 +505,11 @@ b: eller ännu värre... VITT BRÖD
 {{/if}}
 
 {{if _.whitebread}}
-b: We'll overdose on so much meth and white bread they won't be able to fit our fat corpse into the cremation furnace!§
+b: Vi kommer att överdosera på så mycket §meth/tjack§ och vitt bröd att de inte kommer få plats med vårat feta lik i kremationsugnen!§
 {{/if}}
 
 {{if !_.whitebread}}
-b: We'll overdose on so many drugs the undertaker will wonder how our body was *already* pre-embalmed!§
+b: Vi kommer att överdosera på så mycket §droger/knark§ att the §undertaker§ will wonder how our body was *already* pre-embalmed!§
 {{/if}}
 
 ```
@@ -520,14 +520,14 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Besides, can't party, we need to do work or we're a terrible society-parasite!§
+b: Oavsätt, kan inte festa, vi behöver arbeta, eller så är vi hemska samhällsparasiter!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GOD. If it'll make you shut up, fine.§
+h: GUD. Om det får dig att hålla klaffen, visst.
 
-h: Jag säger nej.§
+h: Jag säger nej.
 
 `_.partyinvite="no"`
 
@@ -540,15 +540,15 @@ h: Jag säger nej.§
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: All we ever do is cry in a corner about how loneliness is as deadly as 15 cigarettes a day.§
+b: Allt vi nånsin gör är att gråta i ett hörn om att ensamhet är lika dödligt som 15 cigaretter om dan.
 {{/if}}
 
 {{if _.parasite}}
-b: All we ever do at parties is worry about how we should be productive instead.§
+b: Allt vå gör på fester är att oroa oss för hur vi borde vara produktiva istället.
 {{/if}}
 
 {{if _.whitebread}}
-b: All we ever do is worry about how the unhealthy food options are going to kill us.§
+b: Allt vi nånsin gör är att oroa oss för hur de ohälsosamma matalternativen kommer att döda oss.
 {{/if}}
 
 ```
@@ -556,19 +556,19 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: gee i wonder why.§
+h: §jisses§ jag undrar varför.§
 
 `hong({eyes:"neutral"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: So if we go we'll make them feel bad, but if we reject their invite we'll also make them feel bad!§
+b: Så om vi går får vi dom att må dåligt, men om vi avvisar deras inbjudan får vi också dem att må dåligt!
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: ALL WE DO IS MAKE PEOPLE FEEL BAD, SO WE SHOULD FEEL BAD§
+b: ALLT VI GÖR ÄR ATT FÅ FOLK ATT MÅ DÅLIGT, SÅ VI BORDE MÅ DÅLIGT
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -579,7 +579,7 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. If it'll make you shut up, fine.§
+h: Ugh. Om det får dig att hålla klaffen, visst.§
 
 h: I'll ignore the invite.§
 
@@ -594,19 +594,19 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Anyway. Facebook's too much. I need something calmer, less anxiety-producing.§
+h: Hursomhelst. Facebook är för mycket. Jag behöver något lugnare, mindre ångestframkallande.
 
 `hong({eyes:"neutral"});`
 
-h: What's new on Twitter?§
+h: Vad händer på Twitter?
 
 `bb({eyes:"look"});`
 
 [Åh nej, titta på det där hemska nyhetsnslaget!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*§](#act1d_subtweet)
+[Åh nej, är det där tweetet secretly about *oss?*§](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk]§(#act1d_milk)
+[Kolla, en GIF av en katt som dricker mjölk]§(#act1d_milk)
 
 
 # act1d_news
@@ -616,14 +616,14 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: §God§, det känns som om världen §brinner/står i brand§, inte sant?
+b: Gud, det känns som om världen står i brand, inte sant?
 
 ```
 bb({eyes:"pained2"});
 hong({mouth:"sad", eyes:"sad"});
 ```
 
-b: It feels like it's all ending, like everything's dying and we're doomed and there's nothing we can do about it.§
+b: Det känns som allt håller på att ta slut, som om allt är döende och vi är dömda och det finns inget vi kan göra åt det.
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 0.5;
@@ -634,7 +634,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Let's retweet that story!§
+b: Vi tar och retweetar inslaget!§
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -652,11 +652,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Okej, jag retweetar det, kan du bara snälla vara tyst!§
+h: Okej, jag retweetar det, kan du bara snälla vara tyst!
 
 `hong({mouth:"neutral", eyes:"annoyed"});`
 
-h: Screw it, let's look at Snapchat.§
+h: Strunt samma, vi tar och kollar Snapchat.
 
 (#act1e)
 
@@ -665,16 +665,16 @@ h: Screw it, let's look at Snapchat.§
 
 `bb({eyes:"fear"});`
 
-b: It's a subtweet! A sneaky, sneaky subtweet!§
+b: Det är en subtweet! En lömsk, lömsk subtweet!
 
 `hong({eyes:"annoyed"});`
 
-h: It's probably not?
+h: Det är det antagligen inte?
 
 `bb({eyes:"narrow", mouth:"small"});`
 
 b: men tänk om de talar bakom vår rygg?
-h: They're n--
+h: Det gö--
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"});`
 
@@ -682,7 +682,7 @@ b: FRAMFÖR VÅR RYGG
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: I d--§
+h: Jag t--§
 
 `bb({eyes:"narrow", mouth:"small"});`
 
@@ -717,7 +717,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KEJ, ska försöka §med§ Snapchat.
+h: o-KEJ, ska försöka med Snapchat.
 
 (#act1e)
 
@@ -725,7 +725,7 @@ h: o-KEJ, ska försöka §med§ Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh ya that's cute, just retweeted it, I thi--§
+h: Hehe ja vad gulligt, retweetade precis, jag tro--§
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -733,7 +733,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE§
+b: KATTER KAN INTE BRYTA NED MJÖLK OCH VI ÄR HEMSKA MÄNNISKOR AV ATT HA NJUTIT AV DJURMISSHANDEL
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -750,7 +750,7 @@ hong({mouth:"anger", eyes:"annoyed"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: o-KEJ, ska försöka §med§ Snapchat.
+h: o-KEJ, ska försöka med Snapchat.
 
 (#act1e)
 
@@ -758,7 +758,7 @@ h: o-KEJ, ska försöka §med§ Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, photos from yesterday night. So *that's* what those weekly parties are like.§
+h: Huh, bilder från igår kväll. Så det är *så* de där §veckoliga§ festerna går till.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -770,29 +770,29 @@ h: Huh, photos from yesterday night. So *that's* what those weekly parties are l
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, looks way too crowded for my anxiety.§
+h: Oof, ser aldeles för folktätt ut för min ångest.§
 
-h: Maybe I shouldn't have said yes to the invite?§
+h: Jag kanske inte bord sagt ja till inbjudan?§
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Change our answer? Like a jerk?!§](#act1e_yes_dontchange)
+[Ändra vårt svar? Som en skitstövel?!§](#act1e_yes_dontchange)
 
-[Change our answer! It's too crowded!§](#act1e_yes_changetono)
+[Ändra vårt svar! Det är för trångt!§](#act1e_yes_changetono)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.§](#act1e_ignore_subtweet)
+[Jo, de subtweetade oss defenitivt.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.§](#act1e_ignore_factcheck)
+[Vänta vi retweetedade utan att fakta-kolla.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[Du vet, du har riktigt §dålig§ hållning?](#act1e_ignore_posture)
+[Du vet, du har riktigt dålig hållning?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -802,7 +802,7 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on us to come and now we're betraying their trust? Vill du dö ensam?!§
+b: De litade på oss och nu bedrar vi deras tillit? Vill du dö ensam?!
 
 {{if _.fifteencigs}}
 b: FEMTON. CIGARETTER.
@@ -824,7 +824,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!§
+h: Håll käft håll käft jag har kvar det som ja!
 
 (#act1f)
 
@@ -835,7 +835,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?§
+b: Känner du inte till folkrusningar?
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -843,7 +843,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-§
+b: År 2003 fattade en nattklubb i Rhode Island eld och paniken fick folk att överfylla utgångarna så att 100 personer brann ihjäl-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -874,7 +874,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!§
+h: Håll käft håll käft jag ändrar mitt svar till nej! Gud!
 
 (#act1f)
 
@@ -882,35 +882,35 @@ h: Shut up shut up I'll change my answer to no! God!§
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.§
+h: Hm... det ser riktigt kul ut.
 
-h: Maybe I shouldn't have said no to the invite?§
+h: Jag kanske inte skulla ha sagt nej till inbjudan?§
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Change our answer? Like a jerk?!§](#act1e_no_dontchange)
+[Ändra vårt svar? Som en skitstövel?!](#act1e_no_dontchange)
 
-[Ändra vår§a§t svar! Dö inte ensam!](#act1e_no_changetoyes)
+[Ändra vårt svar! Dö inte ensam!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
-[Yeah they were totally subtweeting us.§](#act1e_ignore_subtweet)
+[Jo, de subtweetade oss defenitivt.](#act1e_ignore_subtweet)
 {{/if}}
 
 {{if _.badnews}}
-[Wait we retweeted without fact-checking.§](#act1e_ignore_factcheck)
+[Vänta vi retweetade utan att fakta-kolla.](#act1e_ignore_factcheck)
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[You know, you've got really bad posture?§](#act1e_ignore_posture)
+[Du vet, du har riktigt dålig hållning?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_no_dontchange
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on us!§
+b: Alla räknade med oss!
 
-b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--§
+b: ...att lämna dem ifred och låta dem ha en trevlig fest utan ett hemskt, vidrigt {{if _.whitebread}}vitbröds-mumsande{{/if}} äckel som du--
 
 
 ```
@@ -926,7 +926,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!§
+h: Håll käft håll käft jag har kvar det som nej!§
 
 (#act1f)
 
@@ -937,7 +937,7 @@ bb({body:"fear", eyes:"fear", mouth:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Kronisk ensamhet ökar våra kortisolnivåer §så väl som§ risk för §cardiovascular disiese§ och stroke!§
+b: Kronisk ensamhet ökar våra kortisolnivåer samt risken för kardiovaskulär sjukdom och stroke!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -956,7 +956,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to yes! God!
+h: Håll käft håll käft jag ändrar mitt svar till ja! Gud!
 
 (#act1f)
 
@@ -967,7 +967,7 @@ bb({eyes:"fear", mouth:"small"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: All our problematic tweets have come back to roost!§
+b: Alla våra problematiska tweets har kommit ikapp oss!
 
 ```
 bb({body:"fear", eyes:"fear", mouth:"normal"});
@@ -989,7 +989,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!§
+h: Varför är du så här?!
 
 (#act1f)
 
@@ -1000,14 +1000,14 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: We're spreading disinformation! We're destroying trust in a free press!§
+b: Vi sprider felaktig information! Vi förstör tilliten på en fri press!
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Vi är anledningen till att fascismen kommer §att§ resa sig ur demokratins §spillror/ruiner§!
+b: Vi är anledningen till att fascismen kommer resa sig ur demokratins §spillror/ruiner§!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1023,7 +1023,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 _.factcheck = true;
 ```
 
-h: Why are you like this?!§
+h: Varför är du så här?!
 
 (#act1f)
 
@@ -1034,13 +1034,13 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do you want to have a pretzel for a spine?! Stop hunching over your screen!§
+b: Vill du ha en kringla till ryggrad?! Sluta kröka dig över skärmen!§
 
 ```
 bb({body:"meta"});
 ```
 
-b: That means you too.§
+b: Det gäller dig också.
 
 ```
 bb({body:"normal", mouth:"normal"});
@@ -1056,7 +1056,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Why are you like this?!§
+h: Varför är du så här?!
 
 (#act1f)
 
@@ -1064,27 +1064,27 @@ h: Why are you like this?!§
 
 `hong({mouth:"sad", eyes:"sad"});`
 
-h: Hm... that looks really fun.§
+h: Hm... det ser riktigt roligt ut.
 
-h: Maybe I shouldn't have ignored the invite?§
+h: Jag kanske inte borde ha ignorerat inbjudan?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Keep ignoring, we're still party poopers.](#act1e_ignore_continue)
+[Forsätt ignorera, vi är fortfarande §party poopers§.](#act1e_ignore_continue)
 
-[Actually, say yes.](#act1e_ignore_changetoyes)
+[Fast egentligen, säg ja.](#act1e_ignore_changetoyes)
 
-[Actually, say no.](#act1e_ignore_changetono)
+[Fast egentligen, säg ja.](#act1e_ignore_changetono)
 
 # act1e_ignore_continue
 
 `hong({eyes:"annoyed"});`
 
-h: Det är lite §oförskämt/fräckt§ att fortsätta ignorera, dock. Inte sant?§
+h: Det är lite oförskämt att fortsätta ignorera, dock. Inte sant?
 
 `bb({eyes:"normal_right"});`
 
-b: Fast andra ignorerar alltid *oss*, så§
+b: Fast andra ignorerar alltid *oss*, så
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1095,7 +1095,7 @@ attack("18p", "alone");
 
 `bb({eyes:"normal"});`
 
-b: so let's just call it even.§
+b: vi säger att vi är kvitt.
 
 (#act1f)
 
@@ -1105,7 +1105,7 @@ b: so let's just call it even.§
 
 h: Du... låter mig ha kul?
 
-b: Well, I mean, loneliness *can* kill us.§
+b: Ja, jag menar, ensamhet *kan* döda oss.
 
 `hong({eyes:"neutral", mouth:"neutral"});`
 
@@ -1115,7 +1115,7 @@ b: Well, I mean, loneliness *can* kill us.§
 
 `bb({eyes:"narrow"});`
 
-b: It's too crowded. Crowds are dangerous.§
+b: Det är för folktätt. folkmassor är farliga.
 
 (#act1e_yes_changetono)
 
@@ -1127,33 +1127,33 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Whatever. New Tinder notification.§
+h: Strunt samma. Ny Tinder-notifikation.§
 
 `bb({eyes:"uncertain"})`
 
-b: What, that hookup app?§
+b: Vadå, den där hookup app?§
 
 `hong({eyes:"annoyed"})`
 
-h: It's not a hookup app, it's just a way to meet new peopl--§
+h: Det är inte en hookup app, det är bara ett sätt att träffa nytt fol--§
 
 `bb({eyes:"narrow"})`
 
-b: It's a hookup app.§
+b: Det är en hookup app.§
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, I got a match! They look cute!§
+h: Åh, Jag fick en matchning! De ser söta ut!
 
 ```
 bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Please don't ruin this for m--§
+h: Snälla förstör inte det här för m--
 
 ```
 bb({body:"panic"});
@@ -1164,17 +1164,17 @@ b: FARA FARA FARA FARA FARA FARA
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[We're being *used* by other people.§](#act1f_used_by_others)
+[Vi håller på att *utnyttjas* av andra.](#act1f_used_by_others)
 
-[We're just *using* other people.§](#act1f_using_others)
+[Vi håller bara på att *utnyttja* andra.](#act1f_using_others)
 
-[YOUR MATCH IS A SERIAL KILLER§](#act1f_killer)
+[DIN MATCHNING ÄR EN SERIEMÖRDARE](#act1f_killer)
 
 # act1f_used_by_others
 
 `bb({body:"point_crotch", eyes:"normal", mouth:"normal"})`
 
-b: Random hookups may be able to fill the hole down there,§
+b: §Random hookups§ kanske kav fylla hålet där nere,
 
 b: men de kan aldrig fylla hålet...
 
@@ -1189,7 +1189,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is WE'RE GOING TO DIE ALONE§
+b: Poängen är att vi KOMMER DÖ ENSAMMA§
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1206,7 +1206,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: You think other people's genitals are Pokémon for us to collect?§
+b: Tror du att andras könsorgan är Pokémon som vi ska samla?
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1220,7 +1220,7 @@ Game.FORCE_TEXT_DURATION = 1000;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: ♫ (pokemon theme song)-§
+b: ♫ (pokemon signaturmelodi)-
 
 (...5600)
 
@@ -1275,7 +1275,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is we're a manipulative creep.§
+b: Poängen är att vi är ett manipulativt äckel.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1293,7 +1293,7 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: De §will trap you§ i en brunn tvångsmata dig med vitt bröd för att §göda dig§ så de kan §ha på sig§ ditt skin som kostym!
+b: De §will trap you§ i en brunn tvångsmata dig med vitt bröd för att göda upp dig så de kan klä sig i ditt skin som en kostym!
 {{/if}}
 
 {{if _.parasite}}
