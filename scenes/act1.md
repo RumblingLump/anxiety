@@ -46,7 +46,7 @@ b: Människa! Lyssna, vi är i fara! spelaren...
 
 [...tänker tortera oss igen!](#act1_replay_torture)
 
-[...kommer inte hitta ett §alternate ending§!](#act1_replay_alternate)
+[...kommer inte hitta ett §annat avslut§!](#act1_replay_alternate)
 
 [...kommer drabbas av ludonarrativ dissonans!](#act1_replay_dissonance)
 
@@ -71,11 +71,11 @@ b: De kommer få oss att *inte* slå §husvärden/festvärden§!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: De kommer få oss att slå den Sympatiska §Antiantagonisthusvärden§!swedish pls
+b: De kommer få oss att slå den Sympatiska §Antiantagonistvärden§!swedish pls
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Vi kommer åtmistånde kanske inte hoppa från taket den här gå--§
+h: Vi kommer åtmistånde kanske inte hoppa från taket den här gå--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
@@ -84,7 +84,7 @@ b: DE KOMMER FÅ OSS ATT HOPPA FRÅN TAKET.
 
 `bb({body:"fear"});`
 
-b: ALLA DESSA HEMSKA SAKER KOMMER ATT HÄNDA OSS OCH VI KOMMER DÅ ATT--§
+b: ALLA DESSA HEMSKA SAKER KOMMER ATT HÄNDA OSS OCH VI KOMMER DÅ ATT--
 
 (#act1_replay_end)
 
@@ -96,7 +96,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Visst, historien som *helhet* är den samma, men varje kapittel har två möjliga slut, plus alla §branching dialog opti§--
 
 `bb({body:"fear"});`
 
@@ -128,7 +128,7 @@ b: Vilket påvisar en motsägelse mellan spelets budskap och mekaniker,§
 
 `bb({eyes:"fear"});`
 
-b: Och således upplöser detta narrativa universums självaste väv,§
+b: Och således upplöser detta narrativa universums självaste väv,
 
 `bb({body:"fear"});`
 
