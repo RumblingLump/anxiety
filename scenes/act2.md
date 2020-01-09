@@ -23,14 +23,14 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: Men *såg* du den där "nyheten" about that horrible thing happening somewhere?§
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: h-hej...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +38,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
+a: Gud vad jag hatar nyheterna. Det är bara sensationalism och §clickbait§.
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: t... trevlig fest...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: Sant, men de följer bara §incentives§. Det *verkliga* problemet är folk som klickar på §clickbait§.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: Vem skulle retweeta en §så§ hemsk nyhet, och få alla deras vänner att må dåligt?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ugh, jag vet?
 
 (#act2-preamble-end)
 
@@ -78,14 +78,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: Men *såg* du den där "nyheten" §going viral§?
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: h-hej...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,14 +93,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: Visst, uppenbart fake. Vem skulle falla för det och retweeta?
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: t... trevlig fest...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: Seriöst mannen. Liksom, hallå, öppna Google och faktakolla först?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ugh, eller hur?
 
 (#act2-preamble-end)
 
@@ -127,14 +127,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: Som jag sa, the §Meme Industrial Complex/ Meme-Industriella Komplexet§ exploaterar katter.
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: h-hej...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -149,7 +149,7 @@ publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: t... trevlig fest...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +157,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
+s: Well, Jag såg att någon retweetade en GIF av en katt dricka mjölk igår.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
+s: De inte smälta den ^skiten^! Vem skulle retweeta *djurmisshandel* sådär?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ugh, eller hur?
 
 (#act2-preamble-end)
 
@@ -182,14 +182,14 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: Så nej de svarade aldrig!
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: h-hej...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +197,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: Trots att ni båda matchade §varandra§ på twitter?
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: t... trevlig fest...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
+s: Ja venn'e! Vadå, trodde de att jag var en *seriemördare* eller nått? Så paranoid.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -237,7 +237,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ugh, eller hur?
 
 (#act2-preamble-end)
 
@@ -249,9 +249,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: Ja venn'e! De kanske inte tror att §hookups§ inte kan fylla hålet i deras hjärta?
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: Sluta vara så prydig! Öppna ditt sinne, och öppna §dina ben/din gren§!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Ugh, eller hur?
 
 (#act2-preamble-end)
 
@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: Ja venn'e! De var inte så snygga, §but they would have been a nice catch§!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -279,7 +279,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Gotta Catch 'Em All!™
+a: Gotta Catch 'Em All!™§
 
 (#act2-preamble-end)
 
@@ -302,11 +302,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 n: ROUND TWO: *FIGHT!*
 
-[Oh no they all hate us!](#act2a_social)
+[Åh nej alla hatar oss!](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[Stod du och *glodde* på rödtotten?](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[Du, vi tar och diskuterar meningen med livet.](#act2a_meaning)
 
 # act2a_social
 
