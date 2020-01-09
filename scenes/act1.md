@@ -208,7 +208,7 @@ b: Människa! Lyssna,§should the comma be a period?§ vi är i fara! The danger
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (LÅT _DIN_ ÅNGEST §COME OUT TO PLAY§! VÄLJ DET MEST LIKNAR VAD _DIN_ RÄDSLA SÄGER)
 
 (#act1_normal_choice)
 
@@ -270,7 +270,7 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: §dra§ fram din laptop och börja med något produktivt nu!
+b: släng fram din laptop och börja med något produktivt nu!
 
 `hong({eyes:"0_annoyed"})`
 
@@ -360,15 +360,15 @@ n: FÅ NED DIN MÄNNISKAS ENERGI TILL NOLL
 
 n: FÖR ATT SKYDDA DERAS + SOCIALA + MORALISKA BEHOV, §SÅ§ KAN DU ANVÄNDA:
 
-n: RÄDSLA FÖR ATT *SKADAS* #harm#
+n: RÄDSLAN FÖR ATT *SKADAS* #harm#
 
-n: RÄDSLA FÖR ATT VARA OÄLSKAD #alone#
+n: RÄDSLAN FÖR ATT VARA OÄLSKAD #alone#
 
-n: OCH RÄDSLA FÖR ATT VARA EN DÅLIG PERSON #bad#
+n: OCH RÄDSLAN FÖR ATT VARA EN DÅLIG PERSON #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (TIPS: §VÄLJ§ VALEN SOM PERSONLIGEN TRÄFFAR DINA DJUPASTE, MÖRKASTE FASOR!~)
+n4: (TIPS: VÄLJ ALTERNATIVEN SOM PERSONLIGEN TRÄFFAR DINA DJUPASTE, MÖRKASTE FASOR!~)
 
 h: ...
 
@@ -411,29 +411,29 @@ n: ROND ETT: *FIGHT!*§
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Facebook feed says there's a party happening this weekend.§
+h: Huh. Facebook feed säger att det är en fest nu i helgen.§
 
 `bb({eyes:"uncertain"});`
 
-b: Doesn't that weirdo throw a party *every* weekend?§
+b: Har inte den skummisen fest *varje* helg?§
 
 `bb({eyes:"uncertain_right"});`
 
-b: What inner void are they trying to fill? They must be deeply messed up inside!§
+b: Vilket inre hålrum försöker de fylla? De måste vara djupt störda på insidan!
 
 `hong({eyes:"surprise"});`
 
-h: Also, I got an invite?§
+h: Dessutom, fick jag en inbjudan?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
 b: Då så!
 
-[Säg ja, §eller/annars§ så dör vi av ensamhet!](#act1c_loner)
+[Säg ja, eller så dör vi av ensamhet!](#act1c_loner)
 
 [Säg nej, det är fullt av giftiga droger!](#act1c_drugs)
 
-[Ignora den, vi gör bara fester §sad.§](#act1c_sad)
+[Ignora den, vi gör bara fester dystra.](#act1c_sad)
 
 # act1c_loner
 
@@ -446,7 +446,7 @@ b: Femton cigaretter om §dan/dagen§, människa! Femton!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Då kommer ingen att §vara på/besöka§ vår begraving, de kommer att dumpa vår§a§ askor i havet , och vi blir till,
+b: Då kommer ingen att komma på vår begraving, de kommer att dumpa våra askor i havet, och vi blir till,
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -475,12 +475,12 @@ b: Ta med laptopen bara så att vi kan arbeta, och inte vara samhällsparasiter.
 {{/if}}
 
 {{if _.whitebread}}
-b: Bara så länge de inte §serve§ VITT BRÖD
+b: Bara så länge de inte bjuder på VITT BRÖD
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GUD. Om det får dig att §hålla käft/hålla klaff/hålla tyst§, visst.
+h: GUD. Om det får dig att hålla tyst, visst.
 
 h: Jag säger ja.
 
@@ -505,11 +505,11 @@ b: eller ännu värre... VITT BRÖD
 {{/if}}
 
 {{if _.whitebread}}
-b: Vi kommer att överdosera på så mycket §meth/tjack§ och vitt bröd att de inte kommer få plats med vårat feta lik i kremationsugnen!§
+b: Vi kommer att överdosera på så mycket tjack och vitt bröd att de inte kommer få plats med vårat feta lik i kremationsugnen!
 {{/if}}
 
 {{if !_.whitebread}}
-b: Vi kommer att överdosera på så mycket §droger/knark§ att the §undertaker§ will wonder how our body was *already* pre-embalmed!§
+b: Vi kommer att överdosera på så mycket knark att the §undertaker will wonder how our body was *already* pre-embalmed!§
 {{/if}}
 
 ```
@@ -525,7 +525,7 @@ b: Oavsätt, kan inte festa, vi behöver arbeta, eller så är vi hemska samhäl
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: GUD. Om det får dig att hålla klaffen, visst.
+h: GUD. Om det får dig att hålla tyst, visst.
 
 h: Jag säger nej.
 
@@ -544,7 +544,7 @@ b: Allt vi nånsin gör är att gråta i ett hörn om att ensamhet är lika död
 {{/if}}
 
 {{if _.parasite}}
-b: Allt vå gör på fester är att oroa oss för hur vi borde vara produktiva istället.
+b: Allt vi gör på fester är att oroa oss för hur vi borde vara produktiva istället.
 {{/if}}
 
 {{if _.whitebread}}
@@ -556,7 +556,7 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: §jisses§ jag undrar varför.§
+h: jisses jag undrar varför.
 
 `hong({eyes:"neutral"});`
 
@@ -579,9 +579,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. Om det får dig att hålla klaffen, visst.§
+h: Ugh. Om det får dig att hålla tyst, visst.
 
-h: I'll ignore the invite.§
+h: Jag ignorerar inbjudningen.
 
 `_.partyinvite="ignore"`
 
@@ -604,9 +604,9 @@ h: Vad händer på Twitter?
 
 [Åh nej, titta på det där hemska nyhetsnslaget!](#act1d_news)
 
-[Åh nej, är det där tweetet secretly about *oss?*§](#act1d_subtweet)
+[Åh nej, är det där tweetet i smyg om *oss?*](#act1d_subtweet)
 
-[Kolla, en GIF av en katt som dricker mjölk]§(#act1d_milk)
+[Kolla, en GIF av en katt som dricker mjölk](#act1d_milk)
 
 
 # act1d_news
@@ -616,7 +616,7 @@ bb({eyes:"pained1"});
 music(null, {fade:2});
 ```
 
-b: Gud, det känns som om världen står i brand, inte sant?
+b: Gud, det känns som om världen brinner, eller hur?
 
 ```
 bb({eyes:"pained2"});
@@ -634,7 +634,7 @@ b: ...
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Vi tar och retweetar inslaget!§
+b: Vi tar och retweetar det!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -725,7 +725,7 @@ h: o-KEJ, ska försöka med Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Hehe ja vad gulligt, retweetade precis, jag tro--§
+h: Hehe ja vad gulligt, retweetade precis, jag tro--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -758,7 +758,7 @@ h: o-KEJ, ska försöka med Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, bilder från igår kväll. Så det är *så* de där §veckoliga§ festerna går till.
+h: Huh, bilder från igår kväll. Så det är *så* de där hälg-festerna ser ut.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -770,18 +770,18 @@ h: Huh, bilder från igår kväll. Så det är *så* de där §veckoliga§ feste
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Oof, ser aldeles för folktätt ut för min ångest.§
+h: Aj, ser aldeles för folktätt ut för min ångest.
 
-h: Jag kanske inte bord sagt ja till inbjudan?§
+h: Jag kanske inte borde sagt ja till inbjudan?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
 bb({mouth:"normal", eyes:"normal"});
 ```
 
-[Ändra vårt svar? Som en skitstövel?!§](#act1e_yes_dontchange)
+[Ändra vårt svar? Som en skitstövel?!](#act1e_yes_dontchange)
 
-[Ändra vårt svar! Det är för trångt!§](#act1e_yes_changetono)
+[Ändra vårt svar! Det är för trångt!](#act1e_yes_changetono)
 
 {{if _.subtweet}}
 [Jo, de subtweetade oss defenitivt.](#act1e_ignore_subtweet)
@@ -792,7 +792,7 @@ bb({mouth:"normal", eyes:"normal"});
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[Du vet, du har riktigt dålig hållning?](#act1e_ignore_posture)
+[Du vet att du har riktigt dålig hållning?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -926,7 +926,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Håll käft håll käft jag har kvar det som nej!§
+h: Håll käft håll käft jag har kvar det som nej!
 
 (#act1f)
 
@@ -1007,7 +1007,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Vi är anledningen till att fascismen kommer resa sig ur demokratins §spillror/ruiner§!
+b: Vi är anledningen till att fascismen kommer resa sig ur demokratins förfall!
 
 ```
 bb({body:"normal", eyes:"anger"});
@@ -1034,7 +1034,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Vill du ha en kringla till ryggrad?! Sluta kröka dig över skärmen!§
+b: Vill du ha en kringla till ryggrad?! Sluta kröka dig över skärmen!
 
 ```
 bb({body:"meta"});
@@ -1127,19 +1127,19 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Strunt samma. Ny Tinder-notifikation.§
+h: Strunt samma. Ny Tindernotifikation.
 
 `bb({eyes:"uncertain"})`
 
-b: Vadå, den där hookup app?§
+b: Vadå, den där hookup-apppen?
 
 `hong({eyes:"annoyed"})`
 
-h: Det är inte en hookup app, det är bara ett sätt att träffa nytt fol--§
+h: Det är inte en hookup-app, det är bara ett sätt att träffa nya människ--
 
 `bb({eyes:"narrow"})`
 
-b: Det är en hookup app.§
+b: Det är en hookup-app.
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
