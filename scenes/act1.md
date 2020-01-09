@@ -46,7 +46,7 @@ b: Människa! Lyssna, vi är i fara! spelaren...
 
 [...tänker tortera oss igen!](#act1_replay_torture)
 
-[...kommer inte hitta ett §annat avslut§!](#act1_replay_alternate)
+[...kommer inte hitta ett annat avslut!](#act1_replay_alternate)
 
 [...kommer drabbas av ludonarrativ dissonans!](#act1_replay_dissonance)
 
@@ -67,7 +67,7 @@ b: De kommer få oss att döda din mobil för att den gav dig en panikattack!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: De kommer få oss att *inte* slå §husvärden/festvärden§!
+b: De kommer få oss att *inte* slå värden!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
@@ -96,7 +96,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Visst, historien som *helhet* är den samma, men varje kapittel har två möjliga slut, plus alla §branching dialog opti§--
+h: Visst, historien som *helhet* är den samma, men varje kapittel har två möjliga slut, plus alla förgrenande dialogträ--
 
 `bb({body:"fear"});`
 
@@ -124,7 +124,7 @@ b: Men att spela om spelet ger dig samma historia, vilket implicerar att dina *V
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Vilket påvisar en motsägelse mellan spelets budskap och mekaniker,§
+b: Vilket påvisar en motsägelse mellan spelets budskap och regler,
 
 `bb({eyes:"fear"});`
 
@@ -204,7 +204,7 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Människa! Lyssna,§should the comma be a period?§ vi är i fara! The danger is...
+b: Människa! Lyssna, vi är i fara! Faran är att...
 
 `bb({body:"squeeze"})`
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Vet du inte att ensamhet är associerat med att dö i förtid lika mycket som att röka 15 cigaretter per dag?-
+b: Vet du inte att ensamhet är förknippat med att dö i förtid lika mycket som att röka 15 cigaretter per dag?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -274,7 +274,7 @@ b: släng fram din laptop och börja med något produktivt nu!
 
 `hong({eyes:"0_annoyed"})`
 
-h: §Um§, jag skulle helst inte få brödsmulor mellan ta--
+h: §Um§, jag skulle helst inte få brödsmulor i tangen--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
@@ -283,7 +283,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 
 b: Om vi inte bidrar till samhällets kropp så är vi en samhällsparasit!
 
-b: Samhällskroppen kommer att gå till samhällsdoktorn för läkemedel till at ta kål på deras samhällsparasiter §och§ då kommer vi--
+b: Samhällskroppen kommer att gå till samhällsdoktorn för läkemedel till at ta kål på deras samhällsparasiter och då kommer vi--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -348,7 +348,7 @@ n: IT'S SUPER EFFECTIVE§
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Du ser, mäinniska. Jag är din lojala vakt-varg!
+b: Du ser, mäinniska. Jag är din lojala vaktvarg!
 
 `bb({body:"pride_talk"});`
 
@@ -415,7 +415,7 @@ h: Huh. Facebook feed säger att det är en fest nu i helgen.§
 
 `bb({eyes:"uncertain"});`
 
-b: Har inte den skummisen fest *varje* helg?§
+b: Har inte den skummisen fest *varje* helg?
 
 `bb({eyes:"uncertain_right"});`
 
@@ -438,7 +438,7 @@ b: Då så!
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Femton cigaretter om §dan/dagen§, människa! Femton!
+b: Femton cigaretter om dagen, människa! Femton!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -467,7 +467,7 @@ attack("18p", "alone");
 `bb({eyes:"normal"});`
 
 {{if !_.fifteencigs}}
-b: Så ja vi gå till den där festen!§
+b: Så ja vi går till den där festen!
 {{/if}}
 
 {{if _.parasite}}
@@ -682,7 +682,7 @@ b: FRAMFÖR VÅR RYGG
 
 `hong({eyes:"sad", mouth:"sad"});`
 
-h: Jag t--§
+h: Jag t--
 
 `bb({eyes:"narrow", mouth:"small"});`
 
@@ -884,7 +884,7 @@ h: Håll käft håll käft jag ändrar mitt svar till nej! Gud!
 
 h: Hm... det ser riktigt kul ut.
 
-h: Jag kanske inte skulla ha sagt nej till inbjudan?§
+h: Jag kanske inte skulla ha sagt nej till inbjudningen?
 
 `bb({mouth:"normal", eyes:"normal"});`
 
@@ -1293,15 +1293,15 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: De §will trap you§ i en brunn tvångsmata dig med vitt bröd för att göda upp dig så de kan klä sig i ditt skin som en kostym!
+b: De slänga ned dig i en brunn tvångsmata dig med vitt bröd för att göda upp dig så de kan klä sig i ditt skin som en kostym!
 {{/if}}
 
 {{if _.parasite}}
-b: They'll bludgeon you with a pomodoro timer and say "YOU SHOULDA BEEN MORE PRODUCTIVE YOU PARASITE"§
+b: De komer mörbulta dig med en pomodoro-timer och säga "DU SKULLA VART MER PRODUKTIV DIN PARASIT"
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: De kommer slita ditt kött till §blodig§ konfetti, §turn your entrails into streamers§, och §mix your blood into a§ punschskål!
+b: De kommer slita ditt kött till blodig konfetti, §turn your entrails into streamers§, och tappa upp ditt blod i en punschskål!
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
@@ -1332,30 +1332,30 @@ h: ...
 
 (...500)
 
-h: i'm so sick of this game.§
+h: Jag är så less på den här leken.
 
 (...700)
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 h:
-{{if _.fifteencigs}}"loneliness will kill us"... {{/if}}§
-{{if _.parasite}}"we're a society-parasite"... {{/if}}§
-{{if _.whitebread}}"don't eat that, it'll kill us"... {{/if}}§
-{{if _.subtweet}}"they're talking behind our back"... {{/if}}§
-{{if _.badnews}}"the world is burning"... {{/if}}§
-{{if _.hookuphole}}"we'll die alone"... {{/if}}§
-{{if _.serialkiller}}"they're a serial killer"... {{/if}}§
-{{if _.catmilk}}"cats can't digest milk"... {{/if}}§
+{{if _.fifteencigs}}"Ensamhet kommer döda oss"... {{/if}}
+{{if _.parasite}}"vi är en samhällsparasit"... {{/if}}
+{{if _.whitebread}}"ät inte det där, det kommer döda oss"... {{/if}}
+{{if _.subtweet}}"de talar bakom vår rygg"... {{/if}}
+{{if _.badnews}}"världen brinner"... {{/if}}
+{{if _.hookuphole}}"vi kommer dö ensamma"... {{/if}}
+{{if _.serialkiller}}"de är en seriemördare... {{/if}}
+{{if _.catmilk}}"katter kan inte bryta ned mjölk"... {{/if}}
 {{if _.pokemon}}a ^crappy^ parody song... {{/if}}§
 
-h: i just want to live my life.§
+h: Jag vill bara kunna leva mitt liv.
 
-h: i just want to be free from all this... pain.§
+h: jag vill bara vara fri från den här... smärtan.
 
 `bb({eyes:"look_sad"});`
 
-b: Hey... human...§
+b: Hey... människa...§
 
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
@@ -1365,7 +1365,7 @@ b: Det löser sig.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Som din lojala §guard-wolf§ §ska/skall/kommer§ jag alltid §keep an eye out for danger§, och göra mitt bästa att §skydda dig/hålla dig säker§.
+b: Som din lojala vaktvarg skall jag alltid hålla ett öga öppet för faror, och göra mitt bästa att hålla dig säker.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
@@ -1378,23 +1378,23 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Last app. Instagram. What you got?§
+h: Sista appen. Instagram. What you got?§
 
 `hong({eyes:"sad"});`
 
-h: It's... more party pictures.§
+h: Det är... fler bilder från festen.
 
 `hong({mouth:"sad"});`
 
-h: Alla ser så glada ut. Fria från oro. Fria från ångest.§
+h: Alla ser så glada ut. Fria från oro. Fria från ångest.
 
 `hong({mouth:"anger"});`
 
-h: God, why can't I be like them? Why can't I just be *normal?*§
+h: Gud, varför kan jag inte vara som dem? Varför kan jag inte bara vara *normal?*
 
 `bb({eyes:"normal_right"});`
 
-b: På tal om fester, om §this weekend's invite§. Här är §my FINAL decision§:
+b: På tal om fester, om §this weekend's invite§helgens inbjudan. Här är mitt SLUTGILTIGA svar:
 
 `bb({eyes:"normal"});`
 
@@ -1437,18 +1437,18 @@ b: v
 
 `bb({eyes:"wat_2"});`
 
-b: va?§
+b: va?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: Jag §kommer/tänker§ säga JA till festen,
+h: Jag kommer säga JA till festen,
 
 {{if _.act1g=="go"}}
-h: INTE du vill, utan för att *§Jag/JAG§* vill.
+h: INTE för att du vill, utan för att *Jag* vill.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisely BECAUSE you don't want me to.§
+h: Specifikt för att du inte vill att jag ska.
 {{/if}}
 
 ```
@@ -1456,14 +1456,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: You're NOT in control of me.§
+h: Du kontrollerar INTE mig.
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Now excuse me while I eat this delicious sandwich in ^goddamn^ peace.§
+h: Nu får du ursäkta mig medans jag äter denna utsökta smörgås i ^goddamn^ lungn och ro.§
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1505,7 +1505,7 @@ b: ..................
 
 [AHHHH ALLA HATAR OSS](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[§AHHHH VI ÄR HEMSKA MÄNNISKOR§](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH VI ÄR HEMSKA PERSONER](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1550,7 +1550,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH §VI ÄR HEMSKA MÄNNISKOR§ AAAAAAHHHHHHH
+b: AHHHH VI ÄR HEMSKA PERSONER AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1568,7 +1568,7 @@ bb({mouth:"smile_lock", eyes:"smile", body:"normal"});
 music('battle', {volume:0.5});
 ```
 
-n: §GRATULERAR§
+n: GRATULERAR
 
 (...500)
 
@@ -1578,7 +1578,7 @@ n: SE, SÅ TACKSAMMA DE ÄR!
 
 (...500)
 
-n: NU NÄR DERAS ENERGI §IS ZERO§, KAN DU DIREKT KONTROLLERA DERAS §AGERANDE/HANDLINGAR§
+n: NU NÄR DERAS ENERGI ÄR NOLL, KAN DU DIREKT KONTROLLERA DERAS HANDLINGAR
 
 `bb({mouth:"smile", eyes:"normal"});`
 
@@ -1588,7 +1588,7 @@ n: PICK YOUR ENDING MOVE§
 
 n: *FINISH THEM*§
 
-[{§KAMP§: Punish your stressful phone!§}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{KAMP: Straffa din stressiga mobil!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [{FLYKT: Kryp ihop till en boll och gråt!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1596,7 +1596,7 @@ n: *FINISH THEM*§
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Your phone was giving you a panic attack!§
+b: Din mobil gav dig en panikattack!
 
 `bb({eyes:"anger"})`
 
@@ -1608,7 +1608,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punish your phone! §Krossa/Förgör§ den! Döda den!§
+b: Straffa din mobil! Krossa den! Döda den!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1633,7 +1633,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Gör som bältdjuret! Kryp ihop §i/för§ självförsvar!
+b: Gör som bältdjuret! Kryp ihop i självförsvar!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
