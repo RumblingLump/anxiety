@@ -93,7 +93,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Visst, uppenbart fake. Vem skulle falla för det och retweeta?
+a: Visst, uppenbart §fake/fejk§. Vem skulle falla för det och retweeta?
 
 ```
 publish("act2",["dum",2]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriöst mannen. Liksom, hallå, öppna Google och faktakolla först?
+s: Seriöst mannen. Hallå, liksom, öppna Google och faktakolla först?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,7 +142,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: Elaborate on this thesis.§
 
 ```
 publish("act2",["dum",0]);
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Ja venn'e! Vadå, trodde de att jag var en *seriemördare* eller nått? Så paranoid.
+s: Ja venn'e! Vadå, trodde de att jag var en *seriemördare* eller §nått§? Så paranoid.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -312,15 +312,15 @@ n: ROUND TWO: *FIGHT!*
 
 `bb({eyes:"sad"})`
 
-b: We're bringing down the mood of this party by being such a sad lump!
+b: Vi drar ned stämningen av den här festen genom att vara en §ledsen/sorgsen§ klump!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: We're killing the good vibes! We're committing first-degree vibe-murder!
+b: Vi dödar de sköna vibbarna! Vi begår första gradens vibbmord!
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Human, we have to leave *now* before--
+b: Människa, vi måste gå *nu* innan--
 
 ```
 _.a2_first_danger = 'social';
@@ -333,15 +333,14 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: They're more attractive than us, which means if we even *look* at them, then--
+b: De är mer atraktiva än oss, vilket betyder att om vi ens *tittar* på dem, så--
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: WE'RE CREEPS
-
+b: ÄR VI §CREEPS/SVIN§
 `bb({body:"normal"})`
 
-b: We're creepy, evil, bad bad bad terrible terrible perv--
+b: Vi är vidriga, onda, dåliga dåliga §dåliga§ hemska hemska pervon--
 
 ```
 _.a2_first_danger = 'perv';
@@ -354,31 +353,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? 
+b: At the end of it all, what can we possibly do that really matters? §
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
+b: Bidra till mänskligheten? Alla storverk decay the way of Ozymandias. Kärlek? Döden kommer alltid att §skilja den åt§.
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: Och så mycket död det är! *Vi* kommer dö. *Våra nära och kära* kommer dö.
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: §Heck§, Termodynamikens Andra Huvudsats innebär att även vårat *universum* kommer dö!
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: Oh, "döden får oss att uppskatta livet"? Det är som att säga att slaveri är bra för det får oss att upskatta frihet!
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: Oh, "du måste skapa din egen mening"? Det är vad §cultists§ och konspirationsteoretiker gör!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: Livet har ingen mening, döden har ingen mening, till och med *mening* har ingen mening! Vad ska en dödlig själ ta sig till--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -395,7 +394,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: Um... kan du höra mig, människa?
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -403,23 +402,23 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *GASP*
+b: *GASP*§
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: JAG MÅSTE VARNA DIG FÖR...
 
-[*More* of the same danger!](#act2b_louder)
+[*Mer* av samma fara!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[En *annan* social fara!](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[En *annan* moralisk fara!](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[Du ignorerar fara! §Det§ är farligt!](#act2b_ignore)
 
 # act2b_louder
 
@@ -441,13 +440,13 @@ b: I MUST WARN YOU ABOUT...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
+b: KÄNSLOR ÄR SMITTSAMMA! SÅ OM DU INTE GÅR SÅ KOMMER DU ATT INFEKTERA ALLA MED DIN §MENTAL ILLNESS§! 
 
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: Du kommer starta/påbörja ett dödligt utbrott av LEDSENKLUMPSSYNDROM
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
+b: vi behöver ta oss härifrån och sätta oss själva i evig karantän i ett litet rum med Netflix och hämtmat!
 
 ```
 _.a2_second_danger = 'netflix';
