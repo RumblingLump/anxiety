@@ -157,7 +157,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, Jag såg att någon retweetade en GIF av en katt dricka mjölk igår.
+s: Så, jag såg att någon retweetade en GIF av en katt som drack mjölk igår.
 
 ```
 publish("act2",["dee",3]);
@@ -485,11 +485,11 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+b: Creep Law, Section 74.5: (1) En person som spanar in (a) those muscular shoulders (b) that bubble booty (2) skall hädanefter kännas vid som
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: "ETT STORT VIDRIGT §SKITPERVO§"
 
 ```
 _.a2_second_danger = 'law';
@@ -503,23 +503,23 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: Faktiskt, även om du finner en nobel mening i livet, kan du *fortfarande* förstöra allt!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
+b: Alfred Nobel ville ha världsfred och att olika kulturer skulle förstå varandra. Så han bestämde sig för att göra färd lättare.
 
 `bb({eyes:"normal_r"})`
 
-b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
+b: Så han behövde ett sätt att billigt "skapa" tågtunlar. Så han uppfann ett nytt material kallat "dynamit"...
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: which was used in World War I to KILL MILLIONS OF PEOPLE
+b: vilket använder i Första Världskriget för att DÖDA MILJONTALS MÄNNISKOR
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
+b: DET ÄR FJÄRILSEFFEKTEN, MÄNNISKA! HUR MÅNGA §OSKYLDIGA§ DÖDAR DU AV MISSTAG JUST NU
 
 ```
 _.a2_second_danger = 'butterfly';
@@ -535,19 +535,19 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
+b: Faktiskt, vet du vad som är värre än att ingen tycker om dig? *Alla* tycker om dig.
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: That is, becoming one of *these* pleasure-chasing party animals.
+b: Altså, att bli en av *dessa* njutningsjagande §partydjuren/festprissarna§.
 
 `bb({body:"normal", mouth:"small"})`
 
-b: A shallow life with shallow friends who only know the shallow you!
+b: Ett ytligt liv med ytliga vänner som bara känner det ytliga du!
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
+b: Människa, vi måste fly från de här njutningszombierna innan de förvandlar oss till en av dem!
 
 ```
 _.a2_second_danger = 'zombies';
@@ -563,19 +563,19 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: People are dying in famines and genocides *right now* and we're just partying!
+b: Folk dör till svält och folkmord *just nu* och vi bara festar!
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
+b: En vis person sa en gång, "det enda som krävs för ondskans triumf är att §gott folk§ inte gör någonting."
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: WE'RE DOING NOTHING.
+b: VI GÖR INGENTING.
 
 `bb({mouth:"small"})`
 
-b: BY PARTYING, WE'RE HELPING *HITLER*.
+b: GENOM ATT FESTA, HJÄLPER VI *HITLER*.
 
 ```
 _.a2_second_danger = 'hitler';
@@ -591,15 +591,15 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
+b: Du tror att du är säker bara för att du tog ur batterierna ur kolmonoxidetektorn?
 
 `bb({eyes:"suspect_r"})`
 
-b: You won't even smell the poison! You'll just get sleepy and then you'll--
+b: Du kommer inte ens känna lukten av gift! Du kommer bara att känna dig lite sömnig, och då kommer du--
 
 `bb({body:"scream_c_1"})`
 
-b: DIEEEEEEEEEEEEEEEEEE
+b: DÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖ
 
 ```
 _.a2_second_danger = 'ignore';
