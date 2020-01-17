@@ -460,7 +460,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: VAR INTE ETT CREEP. DET ÄR MOT LAGEN!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -485,7 +485,7 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) En person som spanar in (a) those muscular shoulders (b) that bubble booty (2) skall hädanefter kännas vid som
+b: Creep Law, Section 74.5: (1) En person som spanar in (a) those muscular shoulders (b) that bubble booty (2) skall hädanefter kännas vid som§
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
@@ -620,29 +620,29 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh thank goodness human, I think you can hear me again!
+b: Åh tack och lov människa, Jag tror att du kan höra mig igen!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: Jag skall varna dig för...
 
 {{if _.a2_first_choice=="louder"}}
-[*Even more* of the same danger!](#act2c_louder)
+[*Ännu mer* av samma fara!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*More* of the same danger!](#act2c_louder)
+[*Mer* av samma fara!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2c_different_social)
+[En *annan* social fara!](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2c_different_moral)
+[En *annan* moralisk fara!](#act2c_different_moral)
 {{/if}}
 
-[Did you check that punch before drinking?](#act2c_punch)
+[§Did you check§ §den där§ punschen innan du drack?](#act2c_punch)
 
 #act2c_louder
 
@@ -674,15 +674,15 @@ b: I SHALL WARN YOU ABOUT...
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
+b: Egentligen, Netflix & §food delivery§ är inte karantän nog! Vi skulle fortfarande infektera §the delivery person§!
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
+b: Vi behöver flytta till de kanadensiska Yukon-teritorierna, och få vår mat levererad med drönare!
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
+b: Och då skulle de behöva sterilisera drönaren för att få bort våra LEDSENKLUMPSBAKTERIER
 
 `_.a2_attack_3 = "alone";`
 
@@ -715,13 +715,13 @@ sfx("gravel");
 
 (...501)
 
-b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
+b: Det STORA VIDRIGA SKRÄPPERVOT skall dömas till 72 timmar i en av de där medeltida §public-humiliation devices§
 
-b: unless they're secretly *into* that sort of thing
+b: så länge de inte är §*into* that sort of thing§
 
 `bb({body:"scream_a_1"})`
 
-b: because they're a BIG DISGUSTING TRASH PERVERT
+b: för att de är ett STORT VIDRIGT SKRÄPPERVO
 
 `_.a2_attack_3 = "bad";`
 
@@ -733,19 +733,19 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
+b: FJÄRILSEFFEKTEN! Du använder en ej-nedbrytbar plastmugg?
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
+b: §BAM§, EN SOPTIPP LÄCKER GIFT OCH DÖDAR ETT BARN
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding?
+b: Du svettas och hjärtat pumpar?
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
+b: §BAM§, DU RUINERAR VÅRAT SJUKVÅRDSSYSTEM OCH MILJONTALS DÖR
 
 `_.a2_attack_3 = "bad";`
 
@@ -757,15 +757,15 @@ b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: These pleasure-zombies will stumble towards you mumbling,
+b: Dessa njutningszombierna kommer vackla mot dig mumlandes,
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: LIIIIIKES. LIIIIIIIIIIKES.
+b: §LIIIIIKES. LIIIIIIIIIIKES.§
 
 `bb({body:"scream_a_1"})`
 
-b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
+b: Sen kommer de att BITA DIG och förvandla dig till en §BRAINLESS BRO and/or THOUGHTLESS THOT§!
 
 `_.a2_attack_3 = "bad";`
 
@@ -777,15 +777,15 @@ b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS TH
 
 `bb({body:"scream_a_1"})`
 
-b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW
+b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW§
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Saying, *good thing those 'good folks' slacked off with stuff like 'relaxing' and 'self-care'!*
+b: Saying, *tur att de där §'good folks'§ latade sig med saker som 'avslappning' och §'self-care'§!*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Now our plans can go fourth, reich on schedule!*
+b: *Now our plans can go fourth, reich on schedule!*§
 
 `_.a2_attack_3 = "bad";`
 
@@ -797,15 +797,15 @@ b: *Now our plans can go fourth, reich on schedule!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: Come to think about it, do we know if this building *has* a monoxide detector?!
+b: Appropå det, vet vi om den här byggnade har en kolmonoxiddetektor?!
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: What if we're all being poisoned *RIGHT NOW?*
+b: Tänk om vi alla håller på att förgiftas *JUST NU*
 
 `bb({body:"scream_a_1"})`
 
-b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER AND EV--
+b: VI SKULLE INTE ENS SE DÖDEN NÄRMA SIG. vI SKULLE BARA SLUTA EXISTERA §FOREVER AND EVER AND EV§--
 
 `_.a2_attack_3 = "harm";`
 
@@ -817,15 +817,15 @@ b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: What if we're just *fundamentally incapable* of ever being loved, or loving another?
+b: Tänk om vi bara är *fundamentalt inkababla* att någonsin vara älskade, eller älska en annan?
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if something irreversibly broke inside of us a long time ago? Or never existed in us in the first place?
+b: Tänk om något irreversibelt gick sönder inom oss för länge sen? §Or never existed in us in the first place?§
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: AHH VI ÄR TRASIGA! SÅ TRASIGA SÅ TRASIGA SÅ TRASI--
 
 `_.a2_attack_3 = "alone";`
 
@@ -835,19 +835,19 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: What if we're just *fundamentally rotten?*
+b: Tänk om vi bara är *fundamentalt ruttna?*
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Others have an inner drive to do goodness, but we only do "good" out of guilt or shame, if at all.
+b: Andra har ett inre driv att göra gott, men vi gör bara "gott" utav skuld eller skam, om alls.
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if it's in our nature to hurt others? What if we can't be anything *other* than a burden to those close to us?
+b: Tänk om det ligger i vår natur att skada andra? Tänk om vi inte kan vara något *annat* än en börda till de som står hos nära?
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: AHH VI ÄR TRASIGA! SÅ TRASIGA SÅ TRASIGA SÅ TRASI--
 
 `_.a2_attack_3 = "bad";`
 
@@ -857,15 +857,15 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: I'm not being irrational. People *do* drug punch bowls. That is an actual thing that actually happens.
+b: Jag är inte irrationell. §People *do* drug punch bowls§. Det är en faktisk saksom faktiskt sker.
 
 `bb({eyes:"suspect"})`
 
-b: Human, does your head hurt? Are your limbs limp? I think we're dying.
+b: Människa, har du huvudvärk? Är dina lemmar slappa? Jag tror vi håller på att dö.
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE DYING! WE'RE DYING WE'RE DYING WE'RE DYI--
+b: AHHH VI HÅLLER PÅ ATT DÖ! VI HÅLLER PÅ ATT DÖ VI HÅLLER PÅ ATT DÖ VI HÅ--
 
 `_.a2_attack_3 = "harm";`
 
