@@ -897,70 +897,70 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: F^AAACK^!
+h: F^AAACK^!§
 
-h: F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*
+h: F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*§
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Yay, human! I'm so happy you can hear me again!
+b: Hurra, människa! Jag är så glad att du kan höra mig igen!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
-b: Why were you ignoring me?
+b: Varför ignirerade du mig?
 
 `hong({body:"facepalm"})`
 
-h: Holy ^hell^, you absolute moron.
+h: Holy ^hell^, you absolute moron.§
 
 `hong({body:"facepalm_2"})`
 
-h: You know that Native American story?
+h: Du vet den där Indianska sagan?
 
-h: "There are two wolves inside you, one is hope, one is despair, which wolf wins? The one you feed."
+h: "Det finns två vargar inom dig, en är hopp, en är förtvivlan, vilken varg vinner? Den du §matar/fodrar§."
 
 ```
 hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: I was trying to *starve* you, you sadistic ^asshole^!
+h: Jag försökte *svälta* dig, ditt sadistiska ^arsle^!
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Screw it, I'll do positive affirmations instead.
+h: Screw it, I'll do positive affirmations instead.§
 
-h: *I am loved. I am good. I am smart. I am beautiful. I am special.*
+h: *Jag är älskad. Jag är god. Jag är smart. Jag är vacker. Jag är speciell.*
 
 `bb({eyes:"suspect"});`
 
-[Golly, that's so narcissistic!](#act2d_narcissist)
+[Golly, that's so narcissistic!](#act2d_narcissist)§
 
-[Y'know affirmations were *disproven?*](#act2d_disproven)
+[Y'know affirmations were *disproven?*](#act2d_disproven)§
 
-[omg don't credit random stories to indigenous folk](#act2d_racist)
+[omg don't credit random stories to indigenous folk](#act2d_racist)§
 
 # act2d_disproven
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: In fact, they actually *backfire* for people with low self-esteem! 
+b: Faktum är, att de faktiskt *§slår tillbaka§* för folk med lågt självförtroende! 
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: It was a well-designed study – randomized controlled trial, experimenter was blinded as to who was in which group.
+b: Det var en väldesignad studie– randomiserad kontrollerad §studie§, experimenter was blinded as to who was in which group.§
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Results: if you already had low self-esteem, being asked to repeat affirmations makes you feel *worse* than if you'd said nothing at all!
+b: Resultat: om du redan har lågt självförtroende, så får being asked to repeat affirmations makes you feel *worse* än om du inte hade sagt något alls!§
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Look it up on Google Scholar, human,
+b: Wood 2009, Psychological Science. Kolla upp det på Google Scholar, människa,
 
 `bb({body:"scream_b_1"})`
 
-b: THEN STOP SPREADING UNSCIENTIFIC FAKE NEWS
+b: OCH SLUTA SPRIDA OVETENSKAPLIGA FEJKNYHETER
 
 ```
 hong({body:"attacked"});
