@@ -23,7 +23,7 @@
 publish("act2",["dee",3]);
 ```
 
-s: Men *såg* du den där "nyheten" about that horrible thing happening somewhere?§
+s: Men *såg* du den där "nyheten" om den där hemska saken som hände någonstans?
 
 ```
 publish("act2",["dee",2]);
@@ -944,15 +944,15 @@ h: *Jag är älskad. Jag är god. Jag är smart. Jag är vacker. Jag är speciel
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Faktum är, att de faktiskt *§slår tillbaka§* för folk med lågt självförtroende! 
+b: Faktum är, att de faktiskt *ger bakslag* för folk med lågt självförtroende! 
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: Det var en väldesignad studie– randomiserad kontrollerad §studie§, experimenter was blinded as to who was in which group.§
+b: Det var en väldesignad studie– randomiserad och kontrollerad, prövningspersonal var blind för vem som var i vilken grupp.
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Resultat: om du redan har lågt självförtroende, så får being asked to repeat affirmations makes you feel *worse* än om du inte hade sagt något alls!§
+b: Resultat: om du redan har lågt självförtroende, så får §being asked to repeat affirmations makes you feel *worse*§ än om du inte hade sagt något alls!
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
@@ -976,20 +976,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: You *need* to humbly see your own flaws in order to grow as a person!
+b: Du *måste* kunna ödmjukt se dina egna brster för att kunna växa som person!
 
 `bb({body:"two_up", eyes:"suspect"})`
 
-b: You can't spray air freshener over a moldy room! Covering up your flaws makes you worse in the long run.
+b: Du kan inte spreja §air freshener§ över ett mögligt rum! Att täcka upp dina brister gör dig bara bara sämre över tid.
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
-b: Thankfully, I, as your loyal guard-wolf, can alert you to your flaws. And right now, it's-
+b: Tack och lov kan jag, som did lojala vakt-varg, kan jag upplysa dig om dina brister. Och just nu, är det-
 
 `bb({body:"scream_b_1"})`
 
-b: EVERYTHING. EVERYTHING IS WRONG
-
+b: ALLT. ALLT ÄR FEL
 ```
 hong({body:"attacked"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -1004,15 +1003,15 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: Native Americans are *actual people*, not some "noble savages" you can namedrop to make your fortune-cookie advice more *exotic*.
+b: Amerikas ursprungsbefolkning är ett *faktiskt folk*, intee några "ädla vildar" som du kan namedroppa för att göra dina lyckokakoråd mer *exotiska*.
 
 `bb({eyes:"suspect_r"})`
 
-b: You're reducing individual persons & complex cultures to a Hallmark card! That's "benevolent racism"! 
+b: Du reducerar indiviiduella personer & complexa kulturer till en stämpel! That's "benevolent racism"! 
 
 `bb({body:"scream_b_1"})`
 
-b: STOP BEING RACIST YOU SQUINTY-EYED JERK
+b: SLUTA VARA RASISTISK DITT KIS-ÖGDA KRÄK
 
 ```
 hong({body:"attacked"});
@@ -1026,45 +1025,45 @@ attack("10p", "bad");
 
 # act2e
 
-h: ^ASSDAMMIT^.
+h: ^RÖVSATAN^.
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: You know what? You're *irrational*.
+h: Vet du vad? Du är *irrationell*.
 
-h: Everyone knows emotions are irrational! Especially fear!
+h: Alla vet att känslor är irrationella! Speciellt rädsla!
 
 `hong({body:"facepalm_2"})`
 
-h: You're a useless evolutionary leftover, like my appendix or wisdom teeth!
+h: Du är en värdelös evolutionär restprodukt, som min blindtarm eller visdomstand!
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: ^Hell^, this whole wolf metaphor is stupid! You're just a bunch of neuro-chemicals in my head.
+h: §^Hell^§, hela denna varg-metaforen är korkad! Du är bara en hög neurokemikalier i mitt huvud.
 
 `hong({body:"cross", mouth:"cross"})`
 
-h: So why should I listen to a worthless, irrational, non-existent piece of ^shit^ like you?!
+h: Så varför skulle jag lyssna på en värdelös, irrationell, icke-existerande §piece of ^shit^§ som dig?!
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
 b: ...
 
-[Jeez, human. That's really hurtful.](#act2e_hurtful)
+[Jisses, människa. Det var riktigt sårande.](#act2e_hurtful)
 
-[I'm a feeling. Feelings are valid.](#act2e_valid)
+[Jag är en känsla. Känslor är giltiga.](#act2e_valid)
 
-[Human, we're *both* "just chemicals."](#act2e_rational)
+[Människa, vi är *båda* "bara kemikalier."](#act2e_rational)
 
 # act2e_hurtful
 
 `bb({body:"chest"})`
 
-b: I'm *part* of you, you know. When you say that, you're hurting *yourself*.
+b: Jag är en *del* av dig, du vet. När du säger så, så gör du *dig själv* illa.
 
 `bb({body:"scream_a_1"})`
 
-b: Why are you hitting yourself, human? STOP HITTING YOURSELF.
+b: Varför slår du dig själv, människa? SLUTA SLÅ DIG SJÄLV.
 
 ```
 music(null);
