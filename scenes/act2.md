@@ -93,7 +93,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Visst, uppenbart §fake/fejk§. Vem skulle falla för det och retweeta?
+a: Visst, uppenbart fejk. Vem skulle falla för det och retweeta?
 
 ```
 publish("act2",["dum",2]);
@@ -353,11 +353,11 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? §
+b: I slutändan, vad skulle vi någonsin kunna göra som spelar roll?
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Bidra till mänskligheten? Alla storverk decay the way of Ozymandias. Kärlek? Döden kommer alltid att §skilja den åt§.
+b: Bidra till mänskligheten? Alla storverk §decay the way of Ozymandias§. Kärlek? Döden kommer alltid att §skilja den åt§.
 
 `bb({eyes:"sad_r"})`
 
@@ -503,7 +503,7 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Faktiskt, även om du finner en nobel mening i livet, kan du *fortfarande* förstöra allt!
+b: Faktumed, att även om du finner en nobel mening i livet, kan du *fortfarande* förstöra allt!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
@@ -515,7 +515,7 @@ b: Så han behövde ett sätt att billigt "skapa" tågtunlar. Så han uppfann et
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: vilket använder i Första Världskriget för att DÖDA MILJONTALS MÄNNISKOR
+b: vilket användes i Första Världskriget för att DÖDA MILJONTALS MÄNNISKOR
 
 `bb({body:"two_up", eyes:"shock"})`
 
@@ -539,7 +539,7 @@ b: Faktiskt, vet du vad som är värre än att ingen tycker om dig? *Alla* tycke
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: Altså, att bli en av *dessa* njutningsjagande §partydjuren/festprissarna§.
+b: Altså, att bli en av *dessa* njutningsjagande festprissarna.
 
 `bb({body:"normal", mouth:"small"})`
 
@@ -805,7 +805,7 @@ b: Tänk om vi alla håller på att förgiftas *JUST NU*
 
 `bb({body:"scream_a_1"})`
 
-b: VI SKULLE INTE ENS SE DÖDEN NÄRMA SIG. vI SKULLE BARA SLUTA EXISTERA §FOREVER AND EVER AND EV§--
+b: VI SKULLE INTE ENS SE DÖDEN NÄRMA SIG. VI SKULLE BARA SLUTA EXISTERA §FOREVER AND EVER AND EV§--
 
 `_.a2_attack_3 = "harm";`
 
@@ -821,7 +821,7 @@ b: Tänk om vi bara är *fundamentalt inkababla* att någonsin vara älskade, el
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: Tänk om något irreversibelt gick sönder inom oss för länge sen? §Or never existed in us in the first place?§
+b: Tänk om något irreversibelt gick sönder inom oss för länge sen? Eller att det aldrig fanns från första början?
 
 `bb({body:"scream_a_1"})`
 
@@ -857,11 +857,11 @@ b: AHH VI ÄR TRASIGA! SÅ TRASIGA SÅ TRASIGA SÅ TRASI--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Jag är inte irrationell. §People *do* drug punch bowls§. Det är en faktisk saksom faktiskt sker.
+b: Jag är inte irrationell. §People *do* drug punch bowls§. Det är en faktisk sak som faktiskt sker.
 
 `bb({eyes:"suspect"})`
 
-b: Människa, har du huvudvärk? Är dina lemmar slappa? Jag tror vi håller på att dö.
+b: Människa, har du huvudvärk? Är dina lemmar veka? Jag tror vi håller på att dö.
 
 `bb({body:"scream_a_1"})`
 
@@ -907,7 +907,7 @@ b: Hurra, människa! Jag är så glad att du kan höra mig igen!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
-b: Varför ignirerade du mig?
+b: Varför ignorerade du mig?
 
 `hong({body:"facepalm"})`
 
@@ -915,16 +915,16 @@ h: Holy ^hell^, you absolute moron.§
 
 `hong({body:"facepalm_2"})`
 
-h: Du vet den där Indianska sagan?
+h: Du vet den där §Indianska§ sagan?
 
-h: "Det finns två vargar inom dig, en är hopp, en är förtvivlan, vilken varg vinner? Den du §matar/fodrar§."
+h: "Det finns två vargar inom dig, en är hopp, en är förtvivlan, vilken varg vinner? Den du fodrar."
 
 ```
 hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: Jag försökte *svälta* dig, ditt sadistiska ^arsle^!
+h: Jag har försökt *svälta* dig, ditt sadistiska ^as/arsle^!
 
 `hong({body:"smile", mouth:"smile"})`
 
@@ -1003,11 +1003,11 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: Amerikas ursprungsbefolkning är ett *faktiskt folk*, intee några "ädla vildar" som du kan namedroppa för att göra dina lyckokakoråd mer *exotiska*.
+b: Amerikas ursprungsbefolkning är ett *faktiskt folk*, inte några "ädla vildar" som du kan namedroppa för att göra dina lyckokakoråd mer *exotiska*.
 
 `bb({eyes:"suspect_r"})`
 
-b: Du reducerar indiviiduella personer & complexa kulturer till en stämpel! That's "benevolent racism"! 
+b: Du reducerar indiviiduella personer & komplexa kulturer till en stämpel! Det är "välvillig rasism"! 
 
 `bb({body:"scream_b_1"})`
 
@@ -1043,7 +1043,7 @@ h: §^Hell^§, hela denna varg-metaforen är korkad! Du är bara en hög neuroke
 
 `hong({body:"cross", mouth:"cross"})`
 
-h: Så varför skulle jag lyssna på en värdelös, irrationell, icke-existerande §piece of ^shit^§ som dig?!
+h: Så varför skulle jag lyssna på en värdelös, irrationell, icke-existerande hög av ^skit^ som §du/dig§?!
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
@@ -1125,8 +1125,7 @@ b: Oh my gosh, "they" have been lying to us this whole time!
 
 `bb({body:"scream_a_1"})`
 
-b: "THEY" FEED US CONTRADICTIONS TO MAKE US DEPENDENT ON THE SELF-HELP INDUSTRIAL COMPLEX
-
+b: "DE" MATAR OSS MED MOTSÄGELSER FÖR ATT GÖRA OSS BEROENDE AV §SJÄLVHJÄLPS INDUSTRIELLA KOMPLEXET§.
 ```
 music(null);
 hong({body:"attacked"});
@@ -1144,62 +1143,62 @@ attack("10p", "harm");
 
 h: ...
 
-h: I hate this. God it hurts so much I *hate* this.
+h: Jag hatar det här. Gud det gör så ont jag *hatar* det här.
 
-h: I can't appease you. I can't ignore you. I can't fight you. 
+h: Jag kan inte tillfredställa dig. Jag kan inte ignorera dig. Jag kan inte slåss mot dig. 
 
 `bb({eyes:"suspect"});`
 
-h: No matter what I do, I can't seem to get rid of yo--
+h: Oavsätt vad jag gör, Verkar jag inte kunna göra mig av med di--
 
 `bb({body:"cry_1"});`
 
-b: Well maybe you're NOT *SUPPOSED* TO GET RID OF ME.
+b: Jamen du kanske INTE *SKA* GÖRA DIG AV MED MIG.
 
 `bb({body:"cry_2"});`
 
-b: How do you think *I* feel, human?!
+b: Hur tror du *jag* känner mig, människa?!
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: I'm trying my best to be your guard-dog, but you keep seeing me as some Big Bad Wolf!
+b: Jag gör mitt bästa för att vara din vakthund, men du ser alltid mig som någon Stor Stygg Varg!
 
-b: So I try even *harder* to alert you to danger! *More* danger! *Different* danger!
+b: Så jag försöker *ännu mer* att uppmärksamma dig om fara! *Mer* fara! *Annan* fara!
 
 `bb({eyes:"cry_2"})`
 
-b: But no matter how hard I try to protect you, you *still* think I'm your enemy!
+b: Men oavsätt hur mycket jag försöker skydda dig, tror du *fortfarande* att jag är din fiende!
 
 `bb({body:"cry_5"});`
 
-b: What am I doing wrong?!
+b: Vad gör jag för fel?!
 
 `bb({body:"cry_2"});`
 
-b: I *know* I suck at my job. But I'm *trying*, human!
+b: Jag *vet* att jag suger på mitt jobb. Men jag *försöker* människa!
 
 `bb({body:"cry_3"});`
 
-b: ...I'm trying.
+b: ...Jag försöker.
 
 `bb({body:"cry_6", mouth:"right", eyes:"cry_r_1"});`
 
-b: You don't have to heed my warnings, or agree with me, or even *like* me.
+b: Du behöver inte §heed my warnings§, eller ens hålla med, eller ens *gilla* mig.
 
 `bb({eyes:"cry_r_2"});`
 
-b: I just... all I want is for you to be patient with me.
+b: Jag bara... allt jag vill är att du har tålamod med mig.
 
 `bb({eyes:"cry_r_3"});`
 
-b: I just want for you to sit with me for a while, instead of turning away and--
+b: Jag vill bara att du sitter med mig ett tag, istället för att vända dig bort och--
 
 ```
 bb({eyes:"cry_r_4"});
 hong({body:"listen"});
 ```
 
-r: Hey.
+r: Tja.
 
 ```
 hong({body:"look"});
@@ -1216,7 +1215,7 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Looks like you're caught in a fight with yourself, kid.
+r: Looks like you're caught in a fight with yourself, kid.§
 
 ```
 publish("act2",["party_hunter",3]);
