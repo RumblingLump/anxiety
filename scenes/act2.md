@@ -1215,21 +1215,21 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Looks like you're caught in a fight with yourself, kid.§
+r: Ser ut som du är fast i en fight dig själv, §kompis/pyret§.
 
 ```
 publish("act2",["party_hunter",3]);
 publish("act2",["party_hong",13]);
 ```
 
-h2: Was it that obvious?
+h2: Var det så uppenbart?
 
 ```
 publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: You were, uh, mumbling at your hoodie about {{_.a2_hoodie_callback}} or something.
+r: Du, öh, mumlade något till din tröja om {{_.a2_hoodie_callback}} eller något.
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1245,7 +1245,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: oh god i'm such a mess.
+h2: åh gud jag är ett sånt vrak.
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1253,7 +1253,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Hey. You're not alone, friend. Anxiety's super common.
+r: Hörru. Du är inte ensam, kompis. Ångest är supervanligt.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1261,38 +1261,38 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Heck, just yesterday, I heard someone on campus had a nervous breakdown and smashed their phone!
+r: §Heck§, bara igår, hörde jag att någon på campus hadde ett nervöst sammanbrott och mosa sin mobil!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Heck, just yesterday, I heard someone curled up into an armadillo ball and cried in public!
+r: §Heck§, bara igår, hörde jag att någon kröp ihop i en bältdjursboll och grät §offentligt§!
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
-r: Listen: I know what it's like to have that animal in your head.
+r: §Listen§: Jag vet hur det känns att ha det där djuret i huvet.
 
 ```
 publish("act2",["party_hunter",8]);
 ```
 
-r: We *all* do. That's why I throw these parties every weekend, to forget our worries, forget that animal.
+r: Det gör *vi alla*. Det är därför jag §throw these parties§ varje helg, för att glömma våra oroligheter, glömma det där djuret.
 
 ```
 publish("act2",["party_hunter",9]);
 publish("act2",["party_hong",20]);
 ```
 
-h2: but my anxiety...
+h2: men min ångest...
 
 ```
 publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Don't worry, kid. I used to be like you. But then I found a little trick to get that negative voice to shut up forever...
+r: Oroa dig inte, pyret. Jag brukade vara som du. Men sen kom jag på ett litet trick för att få den där negativa röstan att hålla klaff för evigt...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1322,14 +1322,14 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: My own specialty blend. It's a bit stronger than... well, anything legal really.
+r: Min egna specialblandning. Den är något starkare än... tja, allting lagligt egentligen.
 
 ```
 publish("act2",["party_hunter",12]);
 publish("act2",["party_hong",24]);
 ```
 
-r: Bottoms up, ^bee-yatch^!
+r: Botten up, ^bee-yatch^!
 
 ```
 hong({body:"hold"});
@@ -1342,15 +1342,15 @@ publish("hp_show");
 
 (...3500)
 
-[Oh my God.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
+[Åh Herregud.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is a bad coping mechanism.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Det här är en dålig coping-mekanism.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Don't take drinks from strangers.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Ta inte emot drycker från främlingar.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2g_1
 
-b: O--
+b: §O--
 
 (#act2g)
 
@@ -1362,7 +1362,7 @@ b: T--
 
 # act2g_3
 
-b: D--
+b: D--§
 
 (#act2g)
 
@@ -1381,34 +1381,34 @@ hong({body:"forward", mouth:"forward"});
 bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 ```
 
-h: Mmm, what an exquisite palette!
+h: Mmm, en sådan förträfflig profil!
 
-h: A full-bodied flavor of "shut your mind up," with a subtle aftertaste of "never feel anything ever again"!
+h: En fyllig §flavor§ av "§shut your mind up§," med en subtil eftersmak av "Känn aldrig något någonsin igen"!
 
-b: This is bad, human. This is really, really bad.
+b: Det här är illa, människa. Det här är riktigt, riktigt illa.
 
 [This is *actually* how addiction starts.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[I *knew* the host was deeply messed up!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Jag *visste* att värden var djupt §störd§!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Also, they could have drugged that!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Också, de skulle kunna ha drogat det!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
 # act2h_opt1
 
-b: This is *actu*--
+b: This is *actu*--§
 
 (#act2h)
 
 # act2h_opt2
 
-b: Also, they co--
+b: Också, de sku--
 
 (#act2h)
 
 # act2h_opt3
 
-b: I *knew* th--
+b: Jag *visste* a--
 
 (#act2h)
 
@@ -1427,17 +1427,17 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
-h: Delicious, *and* cheaper than therapy!
+h: Utsökt, *och* billigare än terapi!
 
-b: HUMAN PLEASE STOP
+b: MÄNNISKA SNÄLLA SLUTA
 
 h: Hehehe!
 
-h: And what are *you* gonna do about it, ^asshole^?
+h: Och vad tänker *du* göra åt det, §^asshole^§?
 
-b: I'm so sorry, human.
+b: Jag är så ledsen, människa.
 
-b: I'm going to have to use my SPECIAL ATTACK
+b: Jag kommer behöva använda min SPECIALATTACK
 
 ```
 bb({body:"special_a"});
@@ -1464,9 +1464,9 @@ hong({body:"forward", mouth:"forward"});
 sfx("charging");
 ```
 
-h: What's this ^crap^?
+h: Vad är det här för ^skit^?
 
-h: You're gonna yap more stupid *words* at me to--
+h: Du tänker gnälla mer korkade *ord* mot mig för att--
 
 ```
 bb({body:"special_c"});
@@ -1502,45 +1502,45 @@ setTimeout(function(){
 
 (...2500)
 
-h: WHAT THE ^HELL^ WAS THAT
+h: VAD I ^HELVETE^ VAR DET DÄR
 
-b: I'm sorry. I needed to show you the consequences.
+b: Jag är ledsen. Jag behövde visa dig konsekvenserna.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: I COULD *SEE* MY OWN CORPSE. I COULD *FEEL* THE SENSATION OF BEING ACTUALLY DEAD.
+h: JAG KUNDE *SE* MITT EGET LIK. JAG KUNDE *KÄNNA* KÄNSLAN AV ATT FAKTISKT VARA DÖD.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY SAID.
+h: JAG KUNDE *SE* ALLAS BLICKAR AV AVSKY. JAG KUNDE *HÖRA* ALLT DE SA.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
+h: JAG KUNDE *HÖRA* KRASET AV REVBEN. JAG KUNDE *SMAKA* BLODET I LUFTEN.
 {{/if}}
 
-b: I'm sorry, human.
+b: jag är ledsen, människa.
 
-n: *FINISH THEM*
+n: §*FINISH THEM*§
 
-[{FIGHT: Punch the host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{KAMP: Slå värden.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Let's get out of here.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FLYKT: Vi sticker härifrån.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
 `bb({ eyes:"angry" });`
 
-b: That psychopath was taking advantage of you.
+b: Den där psykopaten höll på att utnytja dig.
 
-b: They were trying to corrupt you, make you as messed up as they are!
+b: De försökte korrumpera dig, göra dig lika §störd§ som dem!
 
 `bb({ body:"yell_angry_1" });`
 
-b: Punch that jerk! Knock their friggin' lights out!
+b: Slå den jäveln! §Knock their friggin' lights out!§
 
 `bb({ body:"final_1" });`
 
-b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THE--
+b: SLÅ DEM SLÅ DEM SLÅ DEM SLÅ DEM SLÅ DEM SLÅ DEM SLÅ DEM SLÅ DE--
 
 `_.a2_ending = "fight";`
 
@@ -1548,15 +1548,15 @@ b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM 
 
 # act2j_flight
 
-b: I *knew* all these partygoers were deeply messed up. They all dull their pain with horrible things!
+b: Jag *visste* att alla dessa §partygoers§ var djupt §störda§. De dämpar alla sin smärta med hemska saker!
 
 `bb({ body:"yell_1" });`
 
-b: And they're tricking you into doing the same thing! They're corrupting you! We need to get out!
+b: Och de lurar dig at göra likadant! De korrumperar dig! Vi behöver §get out§!
 
 `bb({ body:"final_1" });`
 
-b: GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OU--
+b: GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OU--§
 
 `_.a2_ending = "flight";`
 
@@ -1585,7 +1585,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: You alright, kid?
+r: Mår du bra, pyret?
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1617,7 +1617,7 @@ publish("act2",["dee",6]);
 publish("act2",["dum",6]);
 ```
 
-r: Y-you...
+r: D-du...
 
 ```
 publish("act2",["party_hunter",23]);
@@ -1627,22 +1627,22 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: are *kinky*.
+r: är *kinky*.
 
-r: I like that. Come to my party next weekend, cutie.
+r: Jag gillar det. Kom till min fest nästa helg, sötnos.
 
 ```
 publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: ok bye, ciao, adios, au revoir
+h2: ok hej då, ciao, adios, au revoir
 
-r: The animal might have won today, but come back, and I'll mix something even stronger for you!
+r: Djuret må ha vunnit idag, men kom tillbaka, och så mixar jag något ännu starkare åt dig!
 
-h2: sayōnara, auf wiedersehen, zài jiàn, shalom
+h2: sayōnara, auf wiedersehen, zài jiàn, shalom, §see ya§
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Du och jag, pyret, vi visar besten vem som är boss!
 
 (#act2k_end)
 
@@ -1650,23 +1650,23 @@ r: You and me, kid, we'll show that beast who's boss!
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok sorry i have to run
+h2: ok ledsen jag måste springa
 
 `publish("act2",["party_hunter",16]);`
 
-r: ^Damn^ it. The animal won today, huh?
+r: ^Fan^ då. Djuret vann idag, §huh§?
 
 `publish("act2",["party_hunter",15]);`
 
-h2: no no, just, uh, gotta run a marathon. gotta go fast.
+h2: nej nej, måste bara, öh, springa marathon. §gotta go fast§.
 
 `publish("act2",["party_hunter",19]);`
 
-r: Come to my party next weekend, cutie. I'll mix something even stronger for you.
+r: Kom till min fest nästa helg, sötnos. Jag blandar ihop något ännu starkare åt dig.
 
-h2: ok thanks gonna run run run run run
+h2: ok tack måste springa springa springa springa springa
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Du och jag, pyret, vi visar besten vem som är boss!
 
 (#act2k_end)
 
@@ -1689,13 +1689,13 @@ sfx("whoosh");
 
 (...1000)
 
-b: Human! Are you okay?!
+b: Människa! Mår du bra?!
 
 ```
 publish("act2", ["act2_end","next"]);
 ```
 
-b: Gosh, that was *close.* We really could've--
+b: §Gosh§, Det var *Nära.* Vi kunde verkligen ha--
 
 ```
 Game.clearText();
@@ -1713,11 +1713,11 @@ sfx("hit");
 
 (...1000)
 
-h: I'm coming back to the party next weekend.
+h: Jag kommer tillbaka till festen nästa vecka.
 
-h: The next time we fight, I'm not just going to *defeat* you...
+h: Nästa gången vi §slåss§, ska jag inte bara *besegra* dig...
 
-h: I'm going to ^fuck^ing *kill* you.
+h: Jag kommer att §^fuck^ing§ *döda* dig.
 
 ```
 Game.clearText();
