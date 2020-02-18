@@ -73,7 +73,7 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! BRA.
+r: Haha! Bra.
 
 ```
 publish("act3",["roofhunter",21]);
@@ -192,7 +192,7 @@ r: Eller få en *kula i skallen*.
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: Annars, så låter du det vinna.
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +200,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: Nej. Du har fel.
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: Jag kommer inte låta det vinna.
 
 ```
 publish("act3",["roofhunter",25]);
@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3§
 
 (#act3a)
 
@@ -240,13 +240,13 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: nej nej nej nej nej nej
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*§
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: CHOOSE WISELY. PROTECT YOUR HUMAN§
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
@@ -254,18 +254,18 @@ b: AAAAAAAAAAAAAAAAAA
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: LYCKA TILL
 
 ```
 Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[Human, you could actually DIE here!§](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is stupid and self-destructive!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
+[Det här är dumt och självdestruktivt!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[These sickos aren't really your friends!§](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
@@ -307,9 +307,9 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You know, I might've believed you... if you hadn't tried that a zillion times before.
+h: Du vet, jag kanske hade trott dig... om du inte hade försökt det där en §zillion§ gånger tidigare.
 
-h: You're the wolf who cried wolf.
+h: Du är vargen som ropade varg.
 
 ```
 bb({ eyes:"sad" });
@@ -354,43 +354,43 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You tried that too.
+h: Du försökte med det också.
 
-b: human, please...
+b: människa, snälla...
 
 `hong({ eyes:"look_right" });`
 
-h: Oh I'm *sorry* Big Pharma doesn't approve of my self-medication.
+h: Åh jag *beklagar* att §Big Pharma§ inte uppskattar min självmedicinering.
 
-h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.
+h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.§
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: Some people throw themselves into work.
+h: Vissa personer kastar sig in i sitt arbete.
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: Some people throw themselves into sex, drugs, and refreshing their Facebook feed.
+h: Vissa personer kastar sig in i sex, droger, och §refreshing§ sin Facebook-feed.
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: Some people throw themselves into other people. 
+h: Vissa personer kastar in i andra personer.
 
 `hong({ eyes:"angry" });`
 
-h: I'm going to throw myself into that swimming pool.
+h: Jag ska kasta mig själv in i den där swimming-poolen.
 
-[You're drunk and it's SIX FLOORS DOWN](#act3_bad_1_harm)
+[Du är full och det är SEX VÅNINGAR NED](#act3_bad_1_harm)
 
-[Dang it, this is the thanks I get?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[Tusan, det här är det tacket jag får?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
-[Okay, I admit it. I messed up.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Okej, jag erkänner det. Jag strulade till det.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 # act3_bad_1_harm
 
-b: Even if you land in the water, the surface tension will crack your ribs and give you a concussion *at the least!*
+b: Även om du landar i vattnet, kommer ytspänningen knäcka dina revben och ge dig en hjärnskakning *minst!*
 
-h: Eh.
+h: Äh.
 
 ```
 hong({body:"drink"});
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: I saw a Russian guy do this on YouTube once.
+h: Jag såg en rysk snubbe göra det här på YouTube en gång.
 
 (#act3_bad_2)
 
@@ -414,13 +414,13 @@ h: I saw a Russian guy do this on YouTube once.
 
 `hong({ eyes:"look_right" });`
 
-h: I- Excuse me, the *thanks?*
+h: Jag- Ursäkta mig, *tacket*?
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: Det här är precis varför jag *existerar!* För att människor kan förlitas med att skydda sig själva!
 
-b: I've been trying to protect your stupid butt all my life and now you're just going t--
+b: Jag har försökt skydda din dumma §butt all my life and now you're just going t--§
 
 ```
 hong({body:"drink"});
