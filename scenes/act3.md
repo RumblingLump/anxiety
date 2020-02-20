@@ -192,7 +192,7 @@ r: Eller få en *kula i skallen*.
 publish("act3",["roofhunter",27]);
 ```
 
-r: Annars, så låter du det vinna.
+r: Annars, så låter du den vinna.
 
 ```
 publish("act3",["roofhunter",31]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: Jag kommer inte låta det vinna.
+h2: Jag kommer inte låta den vinna.
 
 ```
 publish("act3",["roofhunter",25]);
@@ -242,11 +242,11 @@ publish("hp_show");
 
 b: nej nej nej nej nej nej
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*§
+n: DETTA KAPITTEL HAR TVÅ MÖJLIGA SLUT. ETT ÄR *VÄRLDIGT,VÄLDIGT DÅLIGT.*
 
 b: NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ NEJ
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN§
+n: VÄLJ NOGA. SKYDDA DIN MÄNNISKA
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
@@ -261,17 +261,17 @@ Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!§](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[Människa, du skulle faktiskt kunna DÖ här!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [Det här är dumt och självdestruktivt!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!§](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[Dessa sjuka typerna är egentligen inte dina vänner!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: H--
+b: M--
 
 (#act3a_after)
 
@@ -279,7 +279,7 @@ b: H--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: D--
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: T--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: D--
 
 (#act3a_after)
 
@@ -360,7 +360,7 @@ b: människa, snälla...
 
 `hong({ eyes:"look_right" });`
 
-h: Åh jag *beklagar* att §Big Pharma§ inte uppskattar min självmedicinering.
+h: Åh jag *beklagar* att Big Pharma inte uppskattar min självmedicinering.
 
 h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.§
 
@@ -374,7 +374,7 @@ h: Vissa personer kastar sig in i sex, droger, och §refreshing§ sin Facebook-f
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: Vissa personer kastar in i andra personer.
+h: Vissa personer kastar sig in i andra personer.
 
 `hong({ eyes:"angry" });`
 
@@ -382,7 +382,7 @@ h: Jag ska kasta mig själv in i den där swimming-poolen.
 
 [Du är full och det är SEX VÅNINGAR NED](#act3_bad_1_harm)
 
-[Tusan, det här är det tacket jag får?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[Attans, det här är det tacket jag får?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
 [Okej, jag erkänner det. Jag strulade till det.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
@@ -418,9 +418,9 @@ h: Jag- Ursäkta mig, *tacket*?
 
 `bb({ eyes:"angry" });`
 
-b: Det här är precis varför jag *existerar!* För att människor kan förlitas med att skydda sig själva!
+b: Det här är precis varför jag *existerar!* För att människor inte kan förlitas med att skydda sig själva!
 
-b: Jag har försökt skydda din dumma §butt all my life and now you're just going t--§
+b: Jag har försökt skydda din dumma §butt§ hela mitt liv och nu tänker du b--
 
 ```
 hong({body:"drink"});
@@ -457,26 +457,26 @@ bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: Åh WOW är det århundradets största *^djävl^a* underskott!
 
 `hong({ body:"yell_2" });`
 
-h: Yeah, you rotting pile of blood-coated ^shit^! You messed the ^fuck^ up!
+h: Ja, din ruttna hög av blodtäckt ^skit^! §You messed the ^fuck^ up!§
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
-h: Any other remarks, Captain Obvious?
+h: Några andra anmärkningar, Captain Obvious?
 
-[But revenge on me isn't the answer!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Men hämnd på mig är inte svaret!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[But this time I'm *actually* right!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Men den här gången har jag *faktiskt* rätt!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[I've hurt you.](#act3_good_2a)
+[Jag har §skadat§ dig.](#act3_good_2a)
 
 
 # act3_good_1_fail_revenge
 
-b: You need to have a healthier relationship with your emotions, rather than drown them wi--
+b: Du behöver ha en hälsosammare relation till dina känslor, istället för att dränka dem me--
 
 ```
 hong({body:"drink"});
@@ -498,7 +498,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 # act3_good_1_fail_harm
 
-b: So please, put the bottle down and let's--
+b: Så snälla, ställ ned flaskan och låt o--
 
 ```
 hong({body:"drink"});
@@ -523,24 +523,24 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `bb({ eyes:"sad" });`
 
-b: please... don't...
+b: snälla... nej...
 
-h: Your energy bar's looking awfully low there, wolf.
+h: Your energy bar's looking awfully low there, wolf.§
 
-h: If I were you, I'd choose your next words very carefully.
+h: Om jag vore du, skulle jag välja dina nästa ord väldigt noga.
 
 `bb({ eyes:"normal" });`
 
-[Fine. I'm done protecting you.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
+[Visst. Jag är färdig med att skydda dig.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
 
-[I was right all along.](#act3_bad_2_right)
+[Jag hade rätt hela tiden.](#act3_bad_2_right)
 
-[I'm sorry.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Förlåt.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 
 # act3_bad_2_jump
 
-b: So, go ahead and jump. See what I care.
+b: Så, §go ahead§ och hoppa. Se om jag bryr mig.
 
 `hong({ eyes:"look_right", mouth:"normal", MOUTH_LOCK:true });`
 
@@ -551,14 +551,14 @@ hong({ eyes:"less_angry", mouth:"normal" });
 bb({ eyes:"ignore_oh_crap" });
 ```
 
-h: Okay then. Bottoms up.
+h: Okej då. Botten upp.
 
 ```
 bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF WHAT I SA--
+b: VÄNTA NEJ DET VAR OMVÄND PSYKOLOGI DET VAR MENINGEN ATT DU SKULLE GÖRA *MOTSATSEN*MOT VAD JAG S--
 
 (#act3_bad_3)
 
@@ -568,13 +568,13 @@ b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF
 
 `bb({ eyes:"angry" });`
 
-b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.
+b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.§
 
 `bb({ eyes:"sad" });`
 
-b: So please, human... why don't you believe me?!
+b: Så snälla, människa... varför tror du inte på mig?!
 
-h: Because you never believed in *me*.
+h: För att du aldrig trodde på *mig*.
 
 (#act3_bad_3)
 
@@ -583,13 +583,13 @@ h: Because you never believed in *me*.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: Andra vakt-vargar har människor som §actually take time to patiently train them, to *learn* to work together,§
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: Iställer för att hata vaktvargen för att den försöker skydda dem! Så varför kan du inte bar--
 
 `bb({ eyes:"normal" });`
 
-h: Wrong ^fuck^ing answer.
+h: Fel ^jävl^a svar.
 
 (#act3_bad_3)
 
@@ -614,29 +614,29 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *"Det enda vi har att frukta är fruktan själv."*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
-h: *"Don't worry, be happy!"*
+h: *"Don't worry, be happy!"*§
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: All the wise folk of our time agree: negative emotions are *bad!*
+h: All the wise folk of our time agree: negative emotions are *bad!*§
 
 `hong({ eyes:"less_angry" });`
 
-h: Duh! That's why they're called *negative!*
+h: Duh! That's why they're called *negative!*§
 
-b: human... please...
+b: människa... snälla...
 
 `hong({ eyes:"normal" });`
 
-h: A while back, I said: “I just want to be free from all this pain.”
+h: Ett tag sen, sa jag: “jag vill bara vara fri från all denna smärta.”
 
-h: I got my wish. I no longer feel pain, or fear, or anxiety...
+h: Min önskan blev uppfylld. Jag känner inte längre någon smärta, eller rädsla, eller ångest...
 
-h: I don't feel anything at all.
+h: Jag känner inte något alls.
 
 `_.a3_ending = "jump";`
 
@@ -648,7 +648,7 @@ h: I don't feel anything at all.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: Jag var så besatt av att försäkra att inget annat skulle skada dig, att jag inte insåg att *jag* skapade smärtan.
 
 ```
 bb({ eyes:"sorry"});
