@@ -51,7 +51,7 @@ publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Jag är så tacksam att jag kan §pay it forward§, och hjälpa dig döda besten på samma sätt jag dödade min.
+r: Jag är så tacksam att jag kan föra det vidare, och hjälpa dig döda besten på samma sätt jag dödade min.
 
 ```
 publish("act3",["roofhunter",2]);
@@ -461,7 +461,7 @@ h: Åh WOW är det århundradets största *^djävl^a* underskott!
 
 `hong({ body:"yell_2" });`
 
-h: Ja, din ruttna hög av blodtäckt ^skit^! §You messed the ^fuck^ up!§
+h: Ja, din ruttna hög av blodtäckt ^skit^! Du strulade ^§fanemig§^ till det!
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
@@ -585,7 +585,7 @@ h: För att du aldrig trodde på *mig*.
 
 b: Andra vakt-vargar har människor som §actually take time to patiently train them, to *learn* to work together,§
 
-b: Iställer för att hata vaktvargen för att den försöker skydda dem! Så varför kan du inte bar--
+b: Iställer för att hata vakt-vargen för att den försöker skydda dem! Så varför kan du inte bar--
 
 `bb({ eyes:"normal" });`
 
@@ -655,15 +655,15 @@ bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NO. S^HIT^.
+h: NO. S^HIT^.§
 
 `hong({ body:"yell_1" });`
 
-h: ^GODDAMN^. It really took you this long to finally figure it out?!
+h: ^HERREJÄVLAR^. Det tog dig verkligen så här lång tid att äntligen lista ut det?!
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?...
+h: Du kunde ha §saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?§...
 
 `_.apologized_for_hurt = true;`
 
@@ -675,13 +675,13 @@ h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't y
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
 
-h: ...you're *sorry.*
+h: ...*Förlåt.*
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
 h: ...
 
-h: Sorry for *what*?
+h: Förlåt för *vadå*?
 
 (#act3_good_2q)
 
@@ -703,22 +703,22 @@ h: Sorry for *what*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[I'm sorry I wasn't a good protector.](#act3_good_3_protector)
+[Förlåt att jag inte var en bra beskyddare.](#act3_good_3_protector)
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Förlåt att jag inte respekterade dig.](#act3_good_3_respect)
 
-[I'm sorry.](#act3_good_4)
+[Förlåt.](#act3_good_4)
 
 
 # act3_good_2q_not_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[I'm sorry I have a terrible human!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[Förlåt att jag har en så förfärlig människa!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Förlåt att jag inte respekterade dig.](#act3_good_3_respect)
 
-[I'm sorry I hurt you.](#act3_good_3_hurt)
+[Förlåt att jag §sårade/skadade§ dig.](#act3_good_3_hurt)
 
 
 
@@ -726,19 +726,19 @@ h: Sorry for *what*?
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: Det är min plikt attskydda dig mot *riktig* fara, men jag fortsatte skälla mot bilar och brevbäraren.
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: Skälla mot skuggor. Skälla så mycket.
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: Det är bara logiskt att du skulle vilja munkavla mig.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Förlåt.
 
 (#act3_good_4)
 
@@ -748,15 +748,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b: Jag var menad att vara *din* lojala vakthund, men jag agerade som om du skulle lyda *mig*.
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: Det är skillnad mellan en beskyddare och en fångvaktare, och jag gick över gränsen.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Förlåt.
 
 (#act3_good_4)
 
@@ -766,11 +766,11 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: Jag var så besatt med att försöka skydda dig från att skadas, att jag aldrig stannade upp och insåg att *jag* skadade dig.
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: I was a bad dog.§
 
 `bb({eyes:"sorry_down"});`
 
